@@ -1,0 +1,52 @@
+<html>
+<head>
+ <title>CSS-Yatay Açılır Menü</title>
+ <style type="text/css">
+  body { margin:0px; padding:0px; }
+  #menum ul {
+    list-style:none;
+   margin:0px; padding:0px; }
+  #menum li {
+    float:left; position:relative; width:150px; }
+  #menum li ul {
+    display:none; left:0; position:absolute; top:21px; }
+  #menum ul li a{
+    background:#EFEFEF;
+    border-color:#CCCCCC #888888 #555555 #BBBBBB;
+    border-style:solid;
+    color:#000;
+    display:block;
+    font:bold 12px Arial, Helvetica, Sans-serif;
+    margin:0px;
+    padding:2px 3px;
+   text-decoration:none;
+    line-height:16px; }
+  #menum ul li a:hover {
+    background-color:#FFF; color:#FF0000; }
+  #menum li:hover ul { display:block; }
+ </style>
+</head>
+<body>
+<div id="menum">
+<ul>
+<li><a href="#">Ana Sayfa</a></li>
+<li><a href="#">Hakkımızda</a>
+  <ul>
+    <li><a href="#">Şirket Tarihçesi</a></li>
+   <li><a href="#">Yöneticilerimiz</a></li>
+   <li><a href="#">Çalışanlarımız</a></li>
+   <li><a href="#">Faaliyetlerimiz</a></li>
+  </ul>
+<li><a href="#">Hizmetlerimiz</a>
+  <ul>
+    <li><a href="#">Web Tasarım</a></li>
+   <li><a href="#">Hosting</a></li>
+   <li><a href="#">Logo Tasarım</a></li>
+   <li><a href="#">Danışmanlık</a></li>
+  </ul> 
+<li><a href="#">Referanslarımız</a></li>
+<li><a href="#">İletişim</a></li>
+</ul>
+</div>
+</body>
+</html>

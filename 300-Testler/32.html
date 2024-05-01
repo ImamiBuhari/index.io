@@ -1,0 +1,357 @@
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Roboto:wght@300&display=swap" rel="stylesheet" />
+<title>Turis Tv</title>
+<meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport" />
+
+<!---------------------
+
+Design: Turis Mulayim
+Design name: Turis Mulayim 
+contact number : +32486790423 
+YouTube link for more explanations and codes html
+https://www.youtube.com/c/Androidsh
+We hope that this data will not be deleted
+Good luck to all ♥
+
+---------------------->
+
+<!----------  Channel style codes  ------------>
+<style type="text/css">
+.grid-container {
+display: grid;
+justify-content: center;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 5px 5px;
+padding: 10px;
+}
+.grid1-container {
+display: grid;
+justify-content: center;
+grid-template-columns: repeat(1, 1fr);
+grid-gap: 10px;
+
+color: white;
+padding: px;
+}
+h1 {
+text-align: center;
+margin-top: 1px;
+font-weight: bold;
+font-family: "Readex Pro", sans-serif;
+
+}
+
+h2 {
+text-align: center;
+margin-top: 0.5px;
+font-size: 12px;
+color: #8d8daa;
+font-family: "Readex Pro", sans-serif;
+font-weight: bold;
+}
+
+button {
+border-radius: 8px;
+background-image: linear-gradient(to right, #ffffff, #ffffff);
+border-color: #990000;
+padding: 0px;
+margin: 3px;
+height: 130px;
+width: 100px;
+cursor: pointer;
+}
+
+.button {
+text-align: center;
+}
+ {
+display: block;
+}
+button:active {
+border: 2px solid #f00;
+}
+
+</style>
+
+
+
+
+
+
+<!----------  Comprehensive application style codes  ------------>
+<style type="text/css">
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap");
+body {
+padding: 0;
+margin: 0;
+user-select: none;
+list-style: none;
+background: #ffffff;
+background-size: cover;
+font-weight: 500;
+font-size: 16px;
+text-align: right;
+margin: auto;
+/* position: relative; */
+direction: ltr;
+
+/**  Change the application background **/
+background-image: url(https://od.lk/s/OTFfMjkwNzc1MTZf/back2.jpg);
+/**  Change the application background **/
+}
+h3 {
+text-align: center;
+/* text-align: right; */
+/* padding-right: 65px; */
+/* padding-top: 2px;
+    font-size: medium; */
+font-weight: 200;
+font-family: "Readex Pro", sans-serif;
+}
+
+header {
+/**  Change the logo background color   **/
+background: rgba(100,0,0,255);
+/**  Change the logo background color   **/
+padding: 2px;
+color: #fff;
+margin-bottom: 10px;
+position: fixed;
+top: 0;
+height: 60px;
+width: 100%;
+box-shadow: 0px 0px 7px black;
+z-index: 1;
+}
+
+#i1 {
+position: fixed;
+top: 21px;
+
+right: 17px;
+font-size: 40px;
+}
+#i2 {
+position: fixed;
+top: 21px;
+left: 14px;
+font-size: 40px;
+}
+#i3 {
+position: fixed;
+top: 16px;
+left: 40px;
+font-size: 40px;
+}
+
+#page:hover {
+background: none;
+}
+#page {
+margin-top: 75px;
+width: 100%;
+}
+
+#page a:hover {
+background: #fff;
+}
+#page a {
+height: 50px;
+padding-top: 2px;
+padding-bottom: 2px;
+margin-bottom: 11px;
+border: 2px solid rgba(188, 17, 21, 255);
+border-radius: 15px;
+width: 91%;
+display: inline-block;
+margin-right: 14px;
+margin-left: 14px;
+background: white;
+}
+#page a img {
+/*height:50px;
+margin-right:10px;
+width:50px;
+padding-bottom:4px;
+*/
+height: 50px;
+margin-right: 10px;
+width: 50px;
+padding-bottom: 4px;
+}
+#page a p {
+text-align: center;
+font-family: "Readex Pro", sans-serif;
+/* position: absolute; */
+/* margin-right: 20px; */
+/* margin-top: -40px; */
+display: inline-block;
+font-weight: 550;
+color: rgba(188, 17, 21, 255);
+}
+</style>
+
+<!----------  Menu style codes  ------------>
+<style>
+.sidenav {
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+right: 0;
+/**  Change menu color **/
+background-color: #6f0100;
+/**  Change menu color **/
+
+overflow-x: hidden;
+transition: 0.5s;
+padding-top: 60px;
+}
+
+.sidenav a {
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 15px;
+color: #fff;
+display: block;
+transition: 0.3s;
+text-align: center;
+font-family: "Readex Pro", sans-serif;
+}
+
+.sidenav a:hover {
+color: #d9c9c9;
+}
+
+.sidenav .closebtn {
+position: absolute;
+top: 5px;
+right: 0;
+font-size: 15px;
+margin-left: 0px;
+}
+
+@media screen and (max-height: 450px) {
+.sidenav {
+padding-top: 15px;
+}
+.sidenav a {
+font-size: 18px;
+}
+}
+
+/* .Remove the scroll bar at the bottom of the blog*/
+html {
+overflow-x: hidden;
+}
+
+/* Remove changing the shape of the scroll bar Scroll.Bar */
+::-webkit-scrollbar {
+width: 7px;
+}
+::-webkit-scrollbar-thumb {
+-webkit-shadow: inset 0 0 0 #000;
+-webkit-border-radius: 0;
+background-image: -webkit-linear-gradient(top, #bc1115 100%, #000 100%);
+}
+::-webkit-scrollbar-track {
+-webkit-shadow: inset 0 0 0 #000;
+-webkit-border-radius: 100px;
+}
+</style>
+
+
+</head>
+<body dir="rtl">
+<header>
+<!--- Back page link --->
+<a href="  https://meeeetm.github.io/mt.io/ "><i id="i2" class="fa fa-arrow-left" style="font-size: 20px; color: #fff; margin-top: 2px;"></i></a>
+
+<!--- Department Name --->
+<center><h3> Turis Tv</h3></center>
+
+<!--- the list --->
+<div id="mySidenav" class="sidenav">
+<!--- logo --->
+<div class="col-md-9">
+<img src="https://od.lk/s/OTFfMjkwNzc0NThf/turistv.jpg" style="width: 180px; height: `; /* margin: 15px; */ padding: 10px; margin-top: -34px; margin-right: 15px;" />
+</div>
+
+<!---  List sections -->
+<a href="https://play.google.com/store/apps/details?id=co.wuffy.player&hl=en&referrer=utm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_term%3Dwuffy+player&pcampaignid=APPU_1_5_5tXqD2JIaNlwTF1LqwDg"> <i class="fa fa-share"></i> ⬇ꜜ⬇ꜜ⬇ INDIR </a>
+
+<a href="XXX/index.html"> <i class="fa fa-share"></i> ⬇ꜜ⬇ꜜ⬇ XXX </a>
+<a href="https://mulayimturis.000webhostapp.com/"> <i class="fa fa-share"></i> ⬇ꜜ⬇ꜜ⬇ ŞİFRELİ KAPI</a>
+
+<a href="AnaMenu/Turis-Tv.html"> <i class="fa fa-bolt"></i>   Turis Tv  Radyo  </a>
+<a href="https://s6.dosya.tc/server19/texq2s/Turis_TV.apk.html"> <i class="fa fa-envelope"></i> Turis Tv Apk</a>
+<!--- The lock code is forbidden to be deleted --->
+<a href="javascript:void(0)" onclick="closeNav()">  🔐 X Kapat Menu  </a>
+</div>
+<span style="font-size: 30px; cursor: pointer;" onclick="openNav()">
+<i id="i1" class="fa fa-bars" style="font-size: 20px; color: #fff;"></i>
+</span>
+</header>
+<div id="page">
+<div class="grid1-container">
+<div align="center" class="button">
+<div id="buttons-list">
+<!--- Application sections --->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<script>
+function openNav() {
+document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+</div>
+</div>
+</div>
+</header>
+</body>
+
+
+
+
+
+<table id="sidebar_heading_3" border="0" cellspacing="0" cellpadding="0" width="168">
+    <tbody>
+        <tr>
+            <td class="sidebar_heading">TAKVİM</td>
+        </tr>
+        <tr>
+            <td class="shouty3"><embed width="160" height="160" name="obj1" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" src="http://img515.imageshack.us/img515/1949/saatfh0.swf"></embed><noscript><a href="http://www.venus.gen.tr/ekle/">Sitene Ekle</a></noscript></td>
+        </tr>
+        <tr>
+            <td id="edit_rb_footer_3" class="edit_rb_footer" height="27" background="http://theme.webme.com/designs/iceblue/images/poll_bottom_bg.gif">&nbsp;</td>
+        </tr>
+    </tbody>
+</table>
+<table id="sidebar_heading_4" border="0" cellspacing="0" cellpadding="0" width="168">
+    <tbody>
+        <tr>
+            <td body="">&nbsp;</td>
+        </tr>
+    </tbody>
+</table>
