@@ -1,0 +1,184 @@
+Uri: https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&subset=latin,latin-ext
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (26)\www.ulketv.com.tr\css-1
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=latin,latin-ext
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (26)\www.ulketv.com.tr\css
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fChc9.ttf
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (26)\www.ulketv.com.tr\s\roboto\v30\KFOlCnqEu92Fr1MmEU9fChc9.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfChc9.ttf
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (26)\www.ulketv.com.tr\s\roboto\v30\KFOlCnqEu92Fr1MmWUlfChc9.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7GxP.ttf
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (26)\www.ulketv.com.tr\s\roboto\v30\KFOmCnqEu92Fr1Mu7GxP.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/robotocondensed/v27/ieVo2ZhZI2eCN5jzbjEETS9weq8-_d6T_POl0fRJeyVVpcBA5Xk.ttf
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (26)\www.ulketv.com.tr\s\robotocondensed\v27\ieVo2ZhZI2eCN5jzbjEETS9weq8-_d6T_POl0fRJeyVVpcBA5Xk.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/robotocondensed/v27/ieVo2ZhZI2eCN5jzbjEETS9weq8-_d6T_POl0fRJeyWyosBA5Xk.ttf
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (26)\www.ulketv.com.tr\s\robotocondensed\v27\ieVo2ZhZI2eCN5jzbjEETS9weq8-_d6T_POl0fRJeyWyosBA5Xk.ttf
+Content Type: font/ttf
+
+Uri: https://izle7com.haber7.net/resize/400x225/images/2024/03/286b55640cbb9a1e4156f9dd7ab270f3d0b3c62f.jpg
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (26)\www.ulketv.com.tr\resize\400x225\images\2024\03\286b55640cbb9a1e4156f9dd7ab270f3d0b3c62f.jpg
+Content Type: image/jpeg
+
+Uri: https://izle7com.haber7.net/resize/400x225/images/2024/03/6ada9831f404d8621f17443f3818104c8e6f0c25.jpg
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (26)\www.ulketv.com.tr\resize\400x225\images\2024\03\6ada9831f404d8621f17443f3818104c8e6f0c25.jpg
+Content Type: image/jpeg
+
+Uri: https://izle7com.haber7.net/resize/400x225/images/2024/03/6b3004333c1de2bb7bb4cea2359a23650b3ed5e6.jpg
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (26)\www.ulketv.com.tr\resize\400x225\images\2024\03\6b3004333c1de2bb7bb4cea2359a23650b3ed5e6.jpg
+Content Type: image/jpeg
+
+Uri: https://izle7com.haber7.net/resize/400x225/images/2024/03/a54ab543bdedc02060dc7b386fffd81957b6c073.jpg
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (26)\www.ulketv.com.tr\resize\400x225\images\2024\03\a54ab543bdedc02060dc7b386fffd81957b6c073.jpg
+Content Type: image/jpeg
+
+Uri: https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (26)\www.ulketv.com.tr\font-awesome\4.3.0\css\font-awesome.min.css
+Content Type: text/css
+
+Uri: https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.eot?
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (26)\www.ulketv.com.tr\font-awesome\4.3.0\fonts\fontawesome-webfont-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.eot?v=4.3.0
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (26)\www.ulketv.com.tr\font-awesome\4.3.0\fonts\fontawesome-webfont.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.svg?v=4.3.0
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (26)\www.ulketv.com.tr\font-awesome\4.3.0\fonts\fontawesome-webfont.svg
+Content Type: image/svg+xml
+
+Uri: https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.ttf?v=4.3.0
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (26)\www.ulketv.com.tr\font-awesome\4.3.0\fonts\fontawesome-webfont.ttf
+Content Type: font/ttf
+
+Uri: https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff2?v=4.3.0
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (26)\www.ulketv.com.tr\font-awesome\4.3.0\fonts\fontawesome-webfont.woff2
+Content Type: font/woff2
+
+Uri: https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff?v=4.3.0
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (26)\www.ulketv.com.tr\font-awesome\4.3.0\fonts\fontawesome-webfont.woff
+Content Type: font/woff
+
+Uri: https://media.aso1.net/js/code.min.js
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (26)\www.ulketv.com.tr\js\code.min.js
+Content Type: application/javascript
+
+Uri: https://www.ulketv.com.tr/canli-yayin
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (26)\www.ulketv.com.tr\canli-yayin.html
+Content Type: text/html
+
+Uri: https://www.ulketv.com.tr/wp-content/themes/ulketv/css/animate.css
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (26)\www.ulketv.com.tr\wp-content\themes\ulketv\css\animate.css
+Content Type: text/css
+
+Uri: https://www.ulketv.com.tr/wp-content/themes/ulketv/css/bootstrap.min.css
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (26)\www.ulketv.com.tr\wp-content\themes\ulketv\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://www.ulketv.com.tr/wp-content/themes/ulketv/css/jquery.bxslider.css
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (26)\www.ulketv.com.tr\wp-content\themes\ulketv\css\jquery.bxslider.css
+Content Type: text/css
+
+Uri: https://www.ulketv.com.tr/wp-content/themes/ulketv/css/settings.css
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (26)\www.ulketv.com.tr\wp-content\themes\ulketv\css\settings.css
+Content Type: text/css
+
+Uri: https://www.ulketv.com.tr/wp-content/themes/ulketv/css/style.6.css?v=2.7
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (26)\www.ulketv.com.tr\wp-content\themes\ulketv\css\style.6.css
+Content Type: text/css
+
+Uri: https://www.ulketv.com.tr/wp-content/themes/ulketv/images/favicon.png
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (26)\www.ulketv.com.tr\wp-content\themes\ulketv\images\favicon.png
+Content Type: image/png
+
+Uri: https://www.ulketv.com.tr/wp-content/themes/ulketv/images/footer-logos/avrupa7-footer-logo.png
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (26)\www.ulketv.com.tr\wp-content\themes\ulketv\images\footer-logos\avrupa7-footer-logo.png
+Content Type: image/png
+
+Uri: https://www.ulketv.com.tr/wp-content/themes/ulketv/images/footer-logos/haber7-footer-logo.png
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (26)\www.ulketv.com.tr\wp-content\themes\ulketv\images\footer-logos\haber7-footer-logo.png
+Content Type: image/png
+
+Uri: https://www.ulketv.com.tr/wp-content/themes/ulketv/images/footer-logos/izle7-footer-logo.png
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (26)\www.ulketv.com.tr\wp-content\themes\ulketv\images\footer-logos\izle7-footer-logo.png
+Content Type: image/png
+
+Uri: https://www.ulketv.com.tr/wp-content/themes/ulketv/images/footer-logos/kanal7-footer-logo.png
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (26)\www.ulketv.com.tr\wp-content\themes\ulketv\images\footer-logos\kanal7-footer-logo.png
+Content Type: image/png
+
+Uri: https://www.ulketv.com.tr/wp-content/themes/ulketv/images/footer-logos/mepa-footer-logo.png?1
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (26)\www.ulketv.com.tr\wp-content\themes\ulketv\images\footer-logos\mepa-footer-logo.png
+Content Type: image/png
+
+Uri: https://www.ulketv.com.tr/wp-content/themes/ulketv/images/footer-logos/radyo7-footer-logo.png
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (26)\www.ulketv.com.tr\wp-content\themes\ulketv\images\footer-logos\radyo7-footer-logo.png
+Content Type: image/png
+
+Uri: https://www.ulketv.com.tr/wp-content/themes/ulketv/images/footer-logos/ulketv-footer-logo.png
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (26)\www.ulketv.com.tr\wp-content\themes\ulketv\images\footer-logos\ulketv-footer-logo.png
+Content Type: image/png
+
+Uri: https://www.ulketv.com.tr/wp-content/themes/ulketv/images/footer-logos/yasemin-footer-logo.png
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (26)\www.ulketv.com.tr\wp-content\themes\ulketv\images\footer-logos\yasemin-footer-logo.png
+Content Type: image/png
+
+Uri: https://www.ulketv.com.tr/wp-content/themes/ulketv/images/frequency-button-middle.png
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (26)\www.ulketv.com.tr\wp-content\themes\ulketv\images\frequency-button-middle.png
+Content Type: image/png
+
+Uri: https://www.ulketv.com.tr/wp-content/themes/ulketv/images/ulke-logo.svg
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (26)\www.ulketv.com.tr\wp-content\themes\ulketv\images\ulke-logo.svg
+Content Type: image/svg+xml
+
+Uri: https://www.ulketv.com.tr/wp-content/themes/ulketv/js/bootstrap.min.js
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (26)\www.ulketv.com.tr\wp-content\themes\ulketv\js\bootstrap.min.js
+Content Type: application/javascript
+
+Uri: https://www.ulketv.com.tr/wp-content/themes/ulketv/js/jquery.bxslider.min.js
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (26)\www.ulketv.com.tr\wp-content\themes\ulketv\js\jquery.bxslider.min.js
+Content Type: application/javascript
+
+Uri: https://www.ulketv.com.tr/wp-content/themes/ulketv/js/jquery.cookie.js
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (26)\www.ulketv.com.tr\wp-content\themes\ulketv\js\jquery.cookie.js
+Content Type: application/javascript
+
+Uri: https://www.ulketv.com.tr/wp-content/themes/ulketv/js/jquery.imagesloaded.min.js
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (26)\www.ulketv.com.tr\wp-content\themes\ulketv\js\jquery.imagesloaded.min.js
+Content Type: application/javascript
+
+Uri: https://www.ulketv.com.tr/wp-content/themes/ulketv/js/jquery.isotope.min.js
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (26)\www.ulketv.com.tr\wp-content\themes\ulketv\js\jquery.isotope.min.js
+Content Type: application/javascript
+
+Uri: https://www.ulketv.com.tr/wp-content/themes/ulketv/js/jquery.migrate.js
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (26)\www.ulketv.com.tr\wp-content\themes\ulketv\js\jquery.migrate.js
+Content Type: application/javascript
+
+Uri: https://www.ulketv.com.tr/wp-content/themes/ulketv/js/jquery.min.js
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (26)\www.ulketv.com.tr\wp-content\themes\ulketv\js\jquery.min.js
+Content Type: application/javascript
+
+Uri: https://www.ulketv.com.tr/wp-content/themes/ulketv/js/jquery.revolution.min.js
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (26)\www.ulketv.com.tr\wp-content\themes\ulketv\js\jquery.revolution.min.js
+Content Type: application/javascript
+
+Uri: https://www.ulketv.com.tr/wp-content/themes/ulketv/js/jquery.tools.min.js
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (26)\www.ulketv.com.tr\wp-content\themes\ulketv\js\jquery.tools.min.js
+Content Type: application/javascript
+
+Uri: https://www.ulketv.com.tr/wp-content/themes/ulketv/js/script.1.js?v=3
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (26)\www.ulketv.com.tr\wp-content\themes\ulketv\js\script.1.js
+Content Type: application/javascript
+
