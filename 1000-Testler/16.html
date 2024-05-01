@@ -1,0 +1,379 @@
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Roboto:wght@300&display=swap" rel="stylesheet" />
+<title>Turis Tv</title>
+<meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport" />
+
+<!---------------------
+
+Design: Turis Mulayim
+Design name: Turis Mulayim 
+contact number : +32486790423 
+YouTube link for more explanations and codes html
+https://www.youtube.com/c/Androidsh
+We hope that this data will not be deleted
+Good luck to all ♥
+
+---------------------->
+
+<!----------  Channel style codes  ------------>
+<style type="text/css">
+.grid-container {
+display: grid;
+justify-content: center;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 5px 5px;
+padding: 10px;
+}
+.grid1-container {
+display: grid;
+justify-content: center;
+grid-template-columns: repeat(1, 1fr);
+grid-gap: 10px;
+
+color: white;
+padding: px;
+}
+h1 {
+text-align: center;
+margin-top: 1px;
+font-weight: bold;
+font-family: "Readex Pro", sans-serif;
+
+}
+
+h2 {
+text-align: center;
+margin-top: 0.5px;
+font-size: 12px;
+color: #8d8daa;
+font-family: "Readex Pro", sans-serif;
+font-weight: bold;
+}
+
+button {
+border-radius: 8px;
+background-image: linear-gradient(to right, #ffffff, #ffffff);
+border-color: #990000;
+padding: 0px;
+margin: 3px;
+height: 130px;
+width: 100px;
+cursor: pointer;
+}
+
+.button {
+text-align: center;
+}
+ {
+display: block;
+}
+button:active {
+border: 2px solid #f00;
+}
+
+</style>
+
+
+
+
+
+
+<!----------  Comprehensive application style codes  ------------>
+<style type="text/css">
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap");
+body {
+padding: 0;
+margin: 0;
+user-select: none;
+list-style: none;
+background: #ffffff;
+background-size: cover;
+font-weight: 500;
+font-size: 16px;
+text-align: right;
+margin: auto;
+/* position: relative; */
+direction: ltr;
+
+/**  Change the application background **/
+background-image: url(https://od.lk/s/OTFfMjkwNzc1MTZf/back2.jpg);
+/**  Change the application background **/
+}
+h3 {
+text-align: center;
+/* text-align: right; */
+/* padding-right: 65px; */
+/* padding-top: 2px;
+    font-size: medium; */
+font-weight: 200;
+font-family: "Readex Pro", sans-serif;
+}
+
+header {
+/**  Change the logo background color   **/
+background: rgba(100,0,0,255);
+/**  Change the logo background color   **/
+padding: 2px;
+color: #fff;
+margin-bottom: 10px;
+position: fixed;
+top: 0;
+height: 60px;
+width: 100%;
+box-shadow: 0px 0px 7px black;
+z-index: 1;
+}
+
+#i1 {
+position: fixed;
+top: 21px;
+
+right: 17px;
+font-size: 40px;
+}
+#i2 {
+position: fixed;
+top: 21px;
+left: 14px;
+font-size: 40px;
+}
+#i3 {
+position: fixed;
+top: 16px;
+left: 40px;
+font-size: 40px;
+}
+
+#page:hover {
+background: none;
+}
+#page {
+margin-top: 75px;
+width: 100%;
+}
+
+#page a:hover {
+background: #fff;
+}
+#page a {
+height: 50px;
+padding-top: 2px;
+padding-bottom: 2px;
+margin-bottom: 11px;
+border: 2px solid rgba(188, 17, 21, 255);
+border-radius: 15px;
+width: 91%;
+display: inline-block;
+margin-right: 14px;
+margin-left: 14px;
+background: white;
+}
+#page a img {
+/*height:50px;
+margin-right:10px;
+width:50px;
+padding-bottom:4px;
+*/
+height: 50px;
+margin-right: 10px;
+width: 50px;
+padding-bottom: 4px;
+}
+#page a p {
+text-align: center;
+font-family: "Readex Pro", sans-serif;
+/* position: absolute; */
+/* margin-right: 20px; */
+/* margin-top: -40px; */
+display: inline-block;
+font-weight: 550;
+color: rgba(188, 17, 21, 255);
+}
+</style>
+
+<!----------  Menu style codes  ------------>
+<style>
+.sidenav {
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+right: 0;
+/**  Change menu color **/
+background-color: #6f0100;
+/**  Change menu color **/
+
+overflow-x: hidden;
+transition: 0.5s;
+padding-top: 60px;
+}
+
+.sidenav a {
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 15px;
+color: #fff;
+display: block;
+transition: 0.3s;
+text-align: center;
+font-family: "Readex Pro", sans-serif;
+}
+
+.sidenav a:hover {
+color: #d9c9c9;
+}
+
+.sidenav .closebtn {
+position: absolute;
+top: 5px;
+right: 0;
+font-size: 15px;
+margin-left: 0px;
+}
+
+@media screen and (max-height: 450px) {
+.sidenav {
+padding-top: 15px;
+}
+.sidenav a {
+font-size: 18px;
+}
+}
+
+/* .Remove the scroll bar at the bottom of the blog*/
+html {
+overflow-x: hidden;
+}
+
+/* Remove changing the shape of the scroll bar Scroll.Bar */
+::-webkit-scrollbar {
+width: 7px;
+}
+::-webkit-scrollbar-thumb {
+-webkit-shadow: inset 0 0 0 #000;
+-webkit-border-radius: 0;
+background-image: -webkit-linear-gradient(top, #bc1115 100%, #000 100%);
+}
+::-webkit-scrollbar-track {
+-webkit-shadow: inset 0 0 0 #000;
+-webkit-border-radius: 100px;
+}
+</style>
+
+
+</head>
+<body dir="rtl">
+<header>
+<!--- Back page link --->
+<a href="  https://meeeetm.github.io/mt.io/ "><i id="i2" class="fa fa-arrow-left" style="font-size: 20px; color: #fff; margin-top: 2px;"></i></a>
+
+<!--- Department Name --->
+<center><h3> Turis Tv</h3></center>
+
+<!--- the list --->
+<div id="mySidenav" class="sidenav">
+<!--- logo --->
+<div class="col-md-9">
+<img src="https://od.lk/s/OTFfMjkwNzc0NThf/turistv.jpg" style="width: 180px; height: `; /* margin: 15px; */ padding: 10px; margin-top: -34px; margin-right: 15px;" />
+</div>
+
+<!---  List sections -->
+<a href="https://play.google.com/store/apps/details?id=co.wuffy.player&hl=en&referrer=utm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_term%3Dwuffy+player&pcampaignid=APPU_1_5_5tXqD2JIaNlwTF1LqwDg"> <i class="fa fa-share"></i> ⬇ꜜ⬇ꜜ⬇ INDIR </a>
+
+<a href="XXX/index.html"> <i class="fa fa-share"></i> ⬇ꜜ⬇ꜜ⬇ XXX </a>
+<a href="https://mulayimturis.000webhostapp.com/"> <i class="fa fa-share"></i> ⬇ꜜ⬇ꜜ⬇ ŞİFRELİ KAPI</a>
+
+<a href="AnaMenu/Turis-Tv.html"> <i class="fa fa-bolt"></i>   Turis Tv  Radyo  </a>
+<a href="https://s6.dosya.tc/server19/texq2s/Turis_TV.apk.html"> <i class="fa fa-envelope"></i> Turis Tv Apk</a>
+<!--- The lock code is forbidden to be deleted --->
+<a href="javascript:void(0)" onclick="closeNav()">  🔐 X Kapat Menu  </a>
+</div>
+<span style="font-size: 30px; cursor: pointer;" onclick="openNav()">
+<i id="i1" class="fa fa-bars" style="font-size: 20px; color: #fff;"></i>
+</span>
+</header>
+<div id="page">
+<div class="grid1-container">
+<div align="center" class="button">
+<div id="buttons-list">
+<!--- Application sections --->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<script>
+function openNav() {
+document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+</div>
+</div>
+</div>
+</header>
+</body>
+
+
+<!--Licence: GNU GPL V2.0-->
+<style type="text/css">div.saymbrayt{position:fixed;z-index:99900;}div.lakedaymnd{top:0px;left:0px;width:100%;height:33px;background-color:#FFFFFF;border-bottom:1px solid #000;}</style><style type="text/css">div.saymbrayt{_position:absolute;}div.lakedaymnd{_bottom:auto;_top:expression(ie6=(document.documentElement.scrollTop+document.documentElement.clientHeight - 52+"px") );}</style>
+<div class="saymbrayt lakedaymnd"><a class="uuubeybi" href="https://tr-tr.facebook.com/" target="_blank"><span style="font-size: small;"><strong><img src="https://icons.iconarchive.com/icons/yootheme/social-bookmark/32/social-facebook-box-blue-icon.png" border="0" title="Facebook"/></strong></span></a><a class="uuubeybi" href="https://torco.tr.gg" target="_blank"><span style="font-size: small;"><strong><img src="https://icons.iconarchive.com/icons/hydrattz/multipurpose-alphabet/32/Letter-T-blue-icon.png" border="0" title="Torco"/></strong></span></a>
+<a class="uuubeybi" href="https://twitter.com/" target="_blank"><span style="font-size: small;"><strong><img src="https://icons.iconarchive.com/icons/limav/flat-gradient-social/32/Twitter-icon.png" border="0" title="Twitter"/></strong></span></a>
+<a class="uuubeybi" href="https://youtube.com/" target="_blank"><span style="font-size: small;"><strong><img src="https://icons.iconarchive.com/icons/dakirby309/simply-styled/32/YouTube-icon.png" border="0" title="Youtube"/></strong></span></a>
+
+<a class="uuubeybi" href="https://web.whatsapp.com/" target="_blank"><span style="font-size: small;"><strong><img src="https://icons.iconarchive.com/icons/alecive/flatwoken/32/Apps-Whatsapp-icon.png" border="0" title="WhatsApp"/></strong></span></a><a class="uuubeybi" href="https://www.tumblr.com/" target="_blank"><span style="font-size: small;"><strong><img src="https://icons.iconarchive.com/icons/iconshots/social-media-network/32/tumbler-icon.png" border="0" title="Tumblr"/></strong></span></a><a class="uuubeybi" href="https://web.telegram.org/" target="_blank"><img src="https://icons.iconarchive.com/icons/bokehlicia/captiva/32/web-telegram-icon.png" border="0" title="Telegram"/></a><div id="koddostu-materyalmenu">
+<p>
+
+<a href="https://www.fullprogramlarindir.net/" target="_blank" rel="noopener noreferrer"><img src="https://icons.iconarchive.com/icons/papirus-team/papirus-mimetypes/24/app-x-msdos-program-icon.png" border="0" title="https://www.fullprogramlarindir.net/"/>&nbsp;Programlar</a>&nbsp; <a href="https://www.ensonhaber.com/" target="_blank" rel="noopener noreferrer"><img src="https://icons.iconarchive.com/icons/pelfusion/long-shadow-ios7/24/News-icon.png" border="0" title="https://www.ensonhaber.com/"/>&nbsp;Haber</a>&nbsp;
+
+
+<a href="https://www.mgm.gov.tr/tahmin/il-ve-ilceler.aspx?il=Ankara" target="_blank" rel="noopener noreferrer"><img src="https://icons.iconarchive.com/icons/papirus-team/papirus-apps/24/weather-icon.png" border="0" title="https://www.mgm.gov.tr"/>&nbsp;Hava Durumu</a>&nbsp;
+
+<a href="https://namazvakitleri.diyanet.gov.tr/tr-TR" target="_blank" rel="noopener noreferrer"><img src="https://icons.iconarchive.com/icons/designbolts/religious-symbol/24/Islam-Crescent-icon.png" border="0" title="https://namazvakitleri.diyanet.gov.tr"/>&nbsp;Namaz Vakitleri</a>&nbsp;
+
+<a href="https://www.eczaneler.gen.tr/" target="_blank" rel="noopener noreferrer"><img src="https://icons.iconarchive.com/icons/iconarchive/red-orb-alphabet/24/Letter-E-icon.png" border="0" title="Nöbetçi Eczaneler"/>&nbsp;Nöbetçi Eczaneler</a>
+&nbsp;
+
+
+
+
+
+<a href="https://www.google.com/search?rlz=1C1CHZN_trTR952TR952&amp;q=sel&Atilde;&sect;uk+sports&amp;spell=1&amp;sa=X&amp;ved=2ahUKEwiggsrD797zAhUd_rsIHf5pACMQBSgAegQIARA1&amp;cshid=1634935110086485&amp;biw=1366&amp;bih=625&amp;dpr=1" target="_blank" rel="noopener noreferrer"><img src="https://icons.iconarchive.com/icons/uriy1966/wooden-sports/24/Soccer-icon.png" border="0" title="SelçukSports"/>&nbsp;SelçukSports Maç</a>
+&nbsp;
+
+<a href="https://yandex.com.tr/video/search?from=morda_new&text=video" target="_blank" rel="noopener noreferrer"><img src="https://icons.iconarchive.com/icons/hadezign/hobbies/24/Movies-icon.png" border="0" title="https://yandex.com.tr/video"/>&nbsp;Video</a>&nbsp;
+
+<a href="https://canlidoviz.com/yaani/" target="_blank" rel="noopener noreferrer"><img src="https://icons.iconarchive.com/icons/custom-icon-design/pretty-office-11/24/cash-icon.png" border="0" title="https://canlidoviz.com/yaani/"/>&nbsp;Canlı Döviz</a>&nbsp; 
+
+<a href="https://0.yaani.com.tr/sport?target=yaani&stand" target="_blank" rel="noopener noreferrer"><img src="https://icons.iconarchive.com/icons/dakirby309/windows-8-metro/24/Apps-Live-Sync-Metro-icon.png" border="0" title="https://0.yaani.com.tr/sport?target=yaani&stand"/>&nbsp;Canlı Skor</a>&nbsp;
+
+<a href="https://www.obilet.com/" target="_blank" rel="noopener noreferrer"><img src="https://icons.iconarchive.com/icons/sonya/swarm/24/Ticket-icon.png" border="0" title="https://www.obilet.com/"/>&nbsp;Bilet</a>&nbsp;
+
+
+<a href="https://www.ego.gov.tr/tr/otobusnerede" target="_blank" rel="noopener noreferrer"><img src="https://icons.iconarchive.com/icons/graphicloads/polygon/24/bus-icon.png" border="0" title="https://www.ego.gov.tr"/>&nbsp;EGO</a></p>
+<b onclick="this.parentNode.className='';"><svg fill="#5677fc" fit="" height="100%" preserveaspectratio="" style="pointer-events: none; display: block;" viewbox="" width="100%"><g>
+<polygon points="19,6.4 17.6,5 12,10.6 6.4,5 5,6.4 10.6,12 5,17.6 6.4,19 12,13.4 17.6,19 19,17.6 13.4,12 "></polygon>
+</g></svg></b>
+<div onclick="this.parentNode.className='acbakalim';"><svg fill="#5677fc" fit="" height="60" preserveaspectratio="" style="pointer-events: none; display: block;" viewbox="" width="100%"><g>
+<path d="M3,18h18v-2H3V18z M3,13h18v-2H3V13z M3,6v2h18V6H3z"></path>
+</g></svg></div>
+</div>
+<style type="text/css"> #koddostu-materyalmenu{position:relative;width:32px;height:35px;overflow:visible;z-index:999000;transition:all 0.25s ease-in;text-align:left;} #koddostu-materyalmenu div, #koddostu-materyalmenu b{cursor:pointer;margin:0 0 0 0;padding:0 0 0 0;position:absolute;top:4px;right:4px;display:inline-block;width:24px;height:24px;transform:rotate(0deg);-webkit-transform:rotate(0deg);transition:all 0.25s ease-in;-webkit-transition:all 0.25s ease-in;} #koddostu-materyalmenu b{width:24px;height:24px;opacity:0;} #koddostu-materyalmenu p{ display:inline-block; overflow:hidden;width:0px;height:0px;position:absolute;top:0px;left:0px;background:#fff; margin:0 0 0 0; padding:0 0 0 0; transition:all 0.25s ease-in; } .acbakalim p{ width:200px !important; height:350px !important; padding:30px 0 0 0 !important; box-shadow:0 2px 5px 0 rgba(0, 0, 0, 0.26) !important; } #koddostu-materyalmenu p a{text-decoration:none !important; font-family:Arial, sans-serif; font-size:14px; color:#455ede; padding-left:15px; display:block; height:10px; line-height:40px; width:200px; } #koddostu-materyalmenu p a:hover{ background:#d0d9ff; } .acbakalim b{ transform:rotate(270deg) !important; -webkit-transform:rotate(270deg) !important; opacity:1 !important; } .acbakalim div{ transform:rotate(360deg) !important; -webkit-transform:rotate(360deg) !important; opacity:1; width:1px !important; height:1px !important; } </style><style type="text/css">.uuubeybi{display:inline-block;padding-left:15px;line-height:29px;font-family:Arial, sans-serif;font-size:15px;font-weight:bold;color:#077fff;text-decoration:none !important;}
+.uuubeybi:hover{color:#077fff !important;}</style></div>

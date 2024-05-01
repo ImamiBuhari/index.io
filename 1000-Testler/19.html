@@ -1,0 +1,445 @@
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Roboto:wght@300&display=swap" rel="stylesheet" />
+<title>Turis Tv</title>
+<meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport" />
+
+<!---------------------
+
+Design: Turis Mulayim
+Design name: Turis Mulayim 
+contact number : +32486790423 
+YouTube link for more explanations and codes html
+https://www.youtube.com/c/Androidsh
+We hope that this data will not be deleted
+Good luck to all ♥
+
+---------------------->
+
+<!----------  Channel style codes  ------------>
+<style type="text/css">
+.grid-container {
+display: grid;
+justify-content: center;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 5px 5px;
+padding: 10px;
+}
+.grid1-container {
+display: grid;
+justify-content: center;
+grid-template-columns: repeat(1, 1fr);
+grid-gap: 10px;
+
+color: white;
+padding: px;
+}
+h1 {
+text-align: center;
+margin-top: 1px;
+font-weight: bold;
+font-family: "Readex Pro", sans-serif;
+
+}
+
+h2 {
+text-align: center;
+margin-top: 0.5px;
+font-size: 12px;
+color: #8d8daa;
+font-family: "Readex Pro", sans-serif;
+font-weight: bold;
+}
+
+button {
+border-radius: 8px;
+background-image: linear-gradient(to right, #ffffff, #ffffff);
+border-color: #990000;
+padding: 0px;
+margin: 3px;
+height: 130px;
+width: 100px;
+cursor: pointer;
+}
+
+.button {
+text-align: center;
+}
+ {
+display: block;
+}
+button:active {
+border: 2px solid #f00;
+}
+
+</style>
+
+
+
+
+
+
+<!----------  Comprehensive application style codes  ------------>
+<style type="text/css">
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap");
+body {
+padding: 0;
+margin: 0;
+user-select: none;
+list-style: none;
+background: #ffffff;
+background-size: cover;
+font-weight: 500;
+font-size: 16px;
+text-align: right;
+margin: auto;
+/* position: relative; */
+direction: ltr;
+
+/**  Change the application background **/
+background-image: url(https://od.lk/s/OTFfMjkwNzc1MTZf/back2.jpg);
+/**  Change the application background **/
+}
+h3 {
+text-align: center;
+/* text-align: right; */
+/* padding-right: 65px; */
+/* padding-top: 2px;
+    font-size: medium; */
+font-weight: 200;
+font-family: "Readex Pro", sans-serif;
+}
+
+header {
+/**  Change the logo background color   **/
+background: rgba(100,0,0,255);
+/**  Change the logo background color   **/
+padding: 2px;
+color: #fff;
+margin-bottom: 10px;
+position: fixed;
+top: 0;
+height: 60px;
+width: 100%;
+box-shadow: 0px 0px 7px black;
+z-index: 1;
+}
+
+#i1 {
+position: fixed;
+top: 21px;
+
+right: 17px;
+font-size: 40px;
+}
+#i2 {
+position: fixed;
+top: 21px;
+left: 14px;
+font-size: 40px;
+}
+#i3 {
+position: fixed;
+top: 16px;
+left: 40px;
+font-size: 40px;
+}
+
+#page:hover {
+background: none;
+}
+#page {
+margin-top: 75px;
+width: 100%;
+}
+
+#page a:hover {
+background: #fff;
+}
+#page a {
+height: 50px;
+padding-top: 2px;
+padding-bottom: 2px;
+margin-bottom: 11px;
+border: 2px solid rgba(188, 17, 21, 255);
+border-radius: 15px;
+width: 91%;
+display: inline-block;
+margin-right: 14px;
+margin-left: 14px;
+background: white;
+}
+#page a img {
+/*height:50px;
+margin-right:10px;
+width:50px;
+padding-bottom:4px;
+*/
+height: 50px;
+margin-right: 10px;
+width: 50px;
+padding-bottom: 4px;
+}
+#page a p {
+text-align: center;
+font-family: "Readex Pro", sans-serif;
+/* position: absolute; */
+/* margin-right: 20px; */
+/* margin-top: -40px; */
+display: inline-block;
+font-weight: 550;
+color: rgba(188, 17, 21, 255);
+}
+</style>
+
+<!----------  Menu style codes  ------------>
+<style>
+.sidenav {
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+right: 0;
+/**  Change menu color **/
+background-color: #6f0100;
+/**  Change menu color **/
+
+overflow-x: hidden;
+transition: 0.5s;
+padding-top: 60px;
+}
+
+.sidenav a {
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 15px;
+color: #fff;
+display: block;
+transition: 0.3s;
+text-align: center;
+font-family: "Readex Pro", sans-serif;
+}
+
+.sidenav a:hover {
+color: #d9c9c9;
+}
+
+.sidenav .closebtn {
+position: absolute;
+top: 5px;
+right: 0;
+font-size: 15px;
+margin-left: 0px;
+}
+
+@media screen and (max-height: 450px) {
+.sidenav {
+padding-top: 15px;
+}
+.sidenav a {
+font-size: 18px;
+}
+}
+
+/* .Remove the scroll bar at the bottom of the blog*/
+html {
+overflow-x: hidden;
+}
+
+/* Remove changing the shape of the scroll bar Scroll.Bar */
+::-webkit-scrollbar {
+width: 7px;
+}
+::-webkit-scrollbar-thumb {
+-webkit-shadow: inset 0 0 0 #000;
+-webkit-border-radius: 0;
+background-image: -webkit-linear-gradient(top, #bc1115 100%, #000 100%);
+}
+::-webkit-scrollbar-track {
+-webkit-shadow: inset 0 0 0 #000;
+-webkit-border-radius: 100px;
+}
+</style>
+
+
+</head>
+<body dir="rtl">
+<header>
+<!--- Back page link --->
+<a href="  https://meeeetm.github.io/mt.io/ "><i id="i2" class="fa fa-arrow-left" style="font-size: 20px; color: #fff; margin-top: 2px;"></i></a>
+
+<!--- Department Name --->
+<center><h3> Turis Tv</h3></center>
+
+<!--- the list --->
+<div id="mySidenav" class="sidenav">
+<!--- logo --->
+<div class="col-md-9">
+<img src="https://od.lk/s/OTFfMjkwNzc0NThf/turistv.jpg" style="width: 180px; height: `; /* margin: 15px; */ padding: 10px; margin-top: -34px; margin-right: 15px;" />
+</div>
+
+<!---  List sections -->
+<a href="https://play.google.com/store/apps/details?id=co.wuffy.player&hl=en&referrer=utm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_term%3Dwuffy+player&pcampaignid=APPU_1_5_5tXqD2JIaNlwTF1LqwDg"> <i class="fa fa-share"></i> ⬇ꜜ⬇ꜜ⬇ INDIR </a>
+
+<a href="XXX/index.html"> <i class="fa fa-share"></i> ⬇ꜜ⬇ꜜ⬇ XXX </a>
+<a href="https://mulayimturis.000webhostapp.com/"> <i class="fa fa-share"></i> ⬇ꜜ⬇ꜜ⬇ ŞİFRELİ KAPI</a>
+
+<a href="AnaMenu/Turis-Tv.html"> <i class="fa fa-bolt"></i>   Turis Tv  Radyo  </a>
+<a href="https://s6.dosya.tc/server19/texq2s/Turis_TV.apk.html"> <i class="fa fa-envelope"></i> Turis Tv Apk</a>
+<!--- The lock code is forbidden to be deleted --->
+<a href="javascript:void(0)" onclick="closeNav()">  🔐 X Kapat Menu  </a>
+</div>
+<span style="font-size: 30px; cursor: pointer;" onclick="openNav()">
+<i id="i1" class="fa fa-bars" style="font-size: 20px; color: #fff;"></i>
+</span>
+</header>
+<div id="page">
+<div class="grid1-container">
+<div align="center" class="button">
+<div id="buttons-list">
+<!--- Application sections --->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<script>
+function openNav() {
+document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+</div>
+</div>
+</div>
+</header>
+</body>
+
+
+<!--Site: https://torco.tr.gg/ -->
+<!--Name: Yeni Google Menüsünü Sitene Ekle!-->
+<!--Bu çalışma Creative Commons Attribution-Gayriticari-NoDerivs 3.0 Unported Lisansı ile lisanslanmıştır.-->
+
+<style type="text/css">div.koddostu-go{position:fixed;z-index:10;background:#fff;}div.ogle-koddostu{top:15px;left:0px;width:100%;height:20px;padding:15px 0px;border:none;text-align:right !important;font-family:Arial, sans-serif;font-size:13px;color:#404040;}.sodz{font-family:Arial, sans-serif;font-size:13px;color:#404040;display:inline-block;margin-right:12px;vertical-align:middle;line-height:35px;height:30px;white-space:nowrap;text-decoration:none;}.sodz:link:hover{text-decoration:underline;}.sozd{background:transparent url(https://1.bp.blogspot.com/-ggpI4Fo8jJY/Uj1O27rU1FI/AAAAAAAAd8o/zl6NpkiPQpU/s1600/vde.png) no-repeat top left;display:inline-block;width:30px;height:30px;vertical-align:-11px;margin-right:12px;opacity:0.55;color:#444;}.sozd:hover, .sozd:active, .sozd:focus{outline:0;opacity:1;}.pyl{display:inline-block;background:#f5f5f5;color:#444;text-decoration:none;width:60px;height:30px;text-align:center;line-height:30px;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;margin-right:20px;}.pyl:hover,.pyl:active,.pyl:focus{outline:0;background:#ebebeb;}.appd{background-position:-3px -2px;}.noti{background-position:-3px -37px;}#duyurular{display:none;width:400px;height:400px;overflow: scroll;background:#e5e5e5;position:absolute;top:55px;right:20px;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;box-shadow:0px 2px 10px rgba(0, 0, 0, 0.2);border:1px solid #ccc;}</style><style>#duyurular span{display:block;width:340px;height:400px;background:#fff;margin-top:40px;padding:30px 15px;box-shadow:0px 2px 2px rgba(0, 0, 0, 0.2);-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;color:#404040}#menum{display:none;width:320px;height:350px;padding-top:30px;overflow: scroll;background:#fff;box-shadow:0px 2px 10px rgba(0, 0, 0, 0.2);position:absolute;right:20px;top:55px;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;color:#404040;border:1px solid #ccc;text-align:center;}.brav{display:inline-block;margin:10px;width:64px;height:28px;padding-top:64px;color:#404040;text-decoration:none;text-align:center;line-height:28px;}
+
+.h7h{background:transparent
+url(https://icons.iconarchive.com/icons/hydrattz/multipurpose-alphabet/48/Letter-T-blue-icon.png) no-repeat top center;}
+
+
+.r7r{background:transparent
+url(https://icons.iconarchive.com/icons/papirus-team/papirus-apps/48/google-icon.png) no-repeat top center;}
+
+.i7i{background:transparent
+url(https://icons.iconarchive.com/icons/alecive/flatwoken/48/Apps-Google-Maps-icon.png) no-repeat top center;}
+
+.b7b{background:transparent
+url(https://icons.iconarchive.com/icons/dakirby309/simply-styled/48/Google-Play-Store-alt-icon.png) no-repeat top center;}
+
+.a7a{background:transparent
+url(https://icons.iconarchive.com/icons/dtafalonso/android-lollipop/48/News-And-Weather-icon.png) no-repeat top center;}
+
+.p7p{background:transparent
+url(https://icons.iconarchive.com/icons/dakirby309/simply-styled/48/YouTube-icon.png) no-repeat top center;}
+
+.c7c{background:transparent
+url(https://icons.iconarchive.com/icons/papirus-team/papirus-apps/48/gmail-offline-icon.png) no-repeat top center;}
+
+
+.d7d{background:transparent
+url(https://icons.iconarchive.com/icons/limav/flat-gradient-social/48/Meet-Me-icon.png) no-repeat top center;}
+
+.e7e{background:transparent
+url(https://icons.iconarchive.com/icons/marcus-roberto/google-play/48/Google-Translate-icon.png) no-repeat top center;}
+
+.f7f{background:transparent
+url(https://icons.iconarchive.com/icons/dtafalonso/android-lollipop/48/Earth-icon.png) no-repeat top center;}
+
+.j7j{background:transparent
+url(https://icons.iconarchive.com/icons/marcus-roberto/google-play/48/Google-Drive-icon.png) no-repeat top center;}
+
+.g7g{background:transparent
+url(https://icons.iconarchive.com/icons/vectorizeimages/iconpack/48/date-icon.png) no-repeat top center;}
+
+
+.k7k{background:transparent
+url(https://icons.iconarchive.com/icons/dtafalonso/android-lollipop/48/Docs-icon.png) no-repeat top center;}
+
+.l7l{background:transparent
+url(https://icons.iconarchive.com/icons/icons8/ios7/48/Science-Classroom-icon.png) no-repeat top center;}
+
+.m7m{background:transparent
+url(https://www.gstatic.com/images/branding/product/1x/sheets_2020q4_48dp.png) no-repeat top center;}
+
+
+.n7n{background:transparent
+url(https://www.gstatic.com/images/branding/product/1x/forms_2020q4_48dp.png) no-repeat top center;}
+
+.o7o{background:transparent
+url(https://icons.iconarchive.com/icons/dtafalonso/android-l/48/Hangouts-icon.png) no-repeat top center;}
+
+.y7y{background:transparent
+url(https://icons.iconarchive.com/icons/papirus-team/papirus-apps/48/google-photos-icon.png) no-repeat top center;}
+
+
+
+</style><style type="text/css">div.koddostu-go{_position:absolute;}div.ogle-koddostu{_bottom:auto;_top:expression(ie6=(document.documentElement.scrollTop+document.documentElement.clientHeight - 52+"px") );}</style>
+<div class="koddostu-go ogle-koddostu">
+<a href="https://mail.google.com/" class="sodz" target="_blank" rel="noopener noreferrer"><img src="https://icons.iconarchive.com/icons/marcus-roberto/google-play/16/Gmail-icon.png" border="0" title="https://mail.google.com/"/>&nbsp;Gmail</a>
+<a href="https://www.google.com.tr/imghp?hl=tr&tab=ri&ogbl" class="sodz" target="_blank" rel="noopener noreferrer"><img src="https://icons.iconarchive.com/icons/gakuseisean/aire/16/Search-Images-icon.png" border="0" title="https://www.google.com.tr/imghp?hl=tr&tab=ri&ogbl"/>&nbsp;Görseller</a>
+<a href="javascript:void(0)" onclick="document.getElementById('menum').style.display='block';document.getElementById('duyurular').style.display='none';" class="sozd appd" alt="Menü"></a>
+<a onclick="document.getElementById('duyurular').style.display='block';document.getElementById('menum').style.display='none';" href="javascript:void(0)" class="sozd noti" alt="Duyuru"></a>
+<div id="menum">
+<a class="brav h7h" href="https://torco.tr.gg" >TORCO</a>
+<a class="brav r7r" href="https://google.com.tr" target="_blank" rel="noopener noreferrer">Arama</a>
+<a class="brav i7i" href="https://www.google.com.tr/maps/" target="_blank" rel="noopener noreferrer">Haritalar</a>
+<a class="brav p7p" href="https://youtube.com.tr" target="_blank" rel="noopener noreferrer">Youtube</a>
+<a class="brav b7b" href="https://play.google.com/store?hl=tr" target="_blank" rel="noopener noreferrer">Play</a>
+<a class="brav a7a" href="https://news.google.com/" target="_blank" rel="noopener noreferrer">Haberler</a>
+<a class="brav c7c" href="https://accounts.google.com/" target="_blank" rel="noopener noreferrer">Gmail</a>
+<a class="brav d7d" href="https://apps.google.com/meet/" target="_blank" rel="noopener noreferrer">Meet</a>
+<a class="brav e7e" href="https://translate.google.com.tr/" target="_blank" rel="noopener noreferrer">Çeviri</a>
+<a class="brav f7f" href="https://earth.google.com/" target="_blank" rel="noopener noreferrer">Earth</a>
+<a class="brav j7j" href="https://drive.google.com/" target="_blank" rel="noopener noreferrer">Drive</a>
+<a class="brav g7g" href="https://calendar.google.com/" target="_blank" rel="noopener noreferrer">Takvim</a>
+<a class="brav k7k" href="https://docs.google.com/" target="_blank" rel="noopener noreferrer">Dokumanlar</a>
+<a class="brav l7l" href="https://classroom.google.com/" target="_blank" rel="noopener noreferrer">Classroom</a>
+<a class="brav m7m" href="https://docs.google.com/" target="_blank" rel="noopener noreferrer">E-tablolar</a>
+<a class="brav n7n" href="https://docs.google.com/forms" target="_blank" rel="noopener noreferrer">Formlar</a>
+<a class="brav o7o" href="https://hangouts.google.com/" target="_blank" rel="noopener noreferrer">Hangouts</a>
+<a class="brav y7y" href="https://photos.google.com/" target="_blank" rel="noopener noreferrer">Fotoğraflar</a>
+
+
+
+
+
+<a href="javascript:void(0)" style="position:absolute;top:5px;right:10px;font-size:22px;color:#222;text-decoration:none;" onclick="document.getElementById('menum').style.display='none'">x</a>
+</div>
+<koddostu>
+<div id="duyurular" onmouseout="this.style.display='none'">
+
+<a href="javascript:void(0)" style="position:absolute;top:5px;left:10px;font-size:22px;color:#222;text-decoration:none;" onclick="document.getElementById('duyurular').style.display='none'">X</a>
+
+<center><span onmouseover="document.getElementById('duyurular').style.display='block';">
+<IFRAME SRC=https://www.islamiyet.gen.tr/webmaster/dualar.php width=360 height=200 frameborder=0 scrolling=yes></IFRAME><IFRAME SRC=https://www.islamiyet.gen.tr/webmaster/hadis.php width=360 height=250 frameborder=0 scrolling=yes></IFRAME>
+</span></center>
+
+</span></center></div></koddostu></div>
+
+
+<!--Yeni Google Menüsü Html Kodu STOP-->

@@ -1,0 +1,405 @@
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Roboto:wght@300&display=swap" rel="stylesheet" />
+<title>Turis Tv</title>
+<meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport" />
+
+<!---------------------
+
+Design: Turis Mulayim
+Design name: Turis Mulayim 
+contact number : +32486790423 
+YouTube link for more explanations and codes html
+https://www.youtube.com/c/Androidsh
+We hope that this data will not be deleted
+Good luck to all ♥
+
+---------------------->
+
+<!----------  Channel style codes  ------------>
+<style type="text/css">
+.grid-container {
+display: grid;
+justify-content: center;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 5px 5px;
+padding: 10px;
+}
+.grid1-container {
+display: grid;
+justify-content: center;
+grid-template-columns: repeat(1, 1fr);
+grid-gap: 10px;
+
+color: white;
+padding: px;
+}
+h1 {
+text-align: center;
+margin-top: 1px;
+font-weight: bold;
+font-family: "Readex Pro", sans-serif;
+
+}
+
+h2 {
+text-align: center;
+margin-top: 0.5px;
+font-size: 12px;
+color: #8d8daa;
+font-family: "Readex Pro", sans-serif;
+font-weight: bold;
+}
+
+button {
+border-radius: 8px;
+background-image: linear-gradient(to right, #ffffff, #ffffff);
+border-color: #990000;
+padding: 0px;
+margin: 3px;
+height: 130px;
+width: 100px;
+cursor: pointer;
+}
+
+.button {
+text-align: center;
+}
+ {
+display: block;
+}
+button:active {
+border: 2px solid #f00;
+}
+
+</style>
+
+
+
+
+
+
+<!----------  Comprehensive application style codes  ------------>
+<style type="text/css">
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap");
+body {
+padding: 0;
+margin: 0;
+user-select: none;
+list-style: none;
+background: #ffffff;
+background-size: cover;
+font-weight: 500;
+font-size: 16px;
+text-align: right;
+margin: auto;
+/* position: relative; */
+direction: ltr;
+
+/**  Change the application background **/
+background-image: url(https://od.lk/s/OTFfMjkwNzc1MTZf/back2.jpg);
+/**  Change the application background **/
+}
+h3 {
+text-align: center;
+/* text-align: right; */
+/* padding-right: 65px; */
+/* padding-top: 2px;
+    font-size: medium; */
+font-weight: 200;
+font-family: "Readex Pro", sans-serif;
+}
+
+header {
+/**  Change the logo background color   **/
+background: rgba(100,0,0,255);
+/**  Change the logo background color   **/
+padding: 2px;
+color: #fff;
+margin-bottom: 10px;
+position: fixed;
+top: 0;
+height: 60px;
+width: 100%;
+box-shadow: 0px 0px 7px black;
+z-index: 1;
+}
+
+#i1 {
+position: fixed;
+top: 21px;
+
+right: 17px;
+font-size: 40px;
+}
+#i2 {
+position: fixed;
+top: 21px;
+left: 14px;
+font-size: 40px;
+}
+#i3 {
+position: fixed;
+top: 16px;
+left: 40px;
+font-size: 40px;
+}
+
+#page:hover {
+background: none;
+}
+#page {
+margin-top: 75px;
+width: 100%;
+}
+
+#page a:hover {
+background: #fff;
+}
+#page a {
+height: 50px;
+padding-top: 2px;
+padding-bottom: 2px;
+margin-bottom: 11px;
+border: 2px solid rgba(188, 17, 21, 255);
+border-radius: 15px;
+width: 91%;
+display: inline-block;
+margin-right: 14px;
+margin-left: 14px;
+background: white;
+}
+#page a img {
+/*height:50px;
+margin-right:10px;
+width:50px;
+padding-bottom:4px;
+*/
+height: 50px;
+margin-right: 10px;
+width: 50px;
+padding-bottom: 4px;
+}
+#page a p {
+text-align: center;
+font-family: "Readex Pro", sans-serif;
+/* position: absolute; */
+/* margin-right: 20px; */
+/* margin-top: -40px; */
+display: inline-block;
+font-weight: 550;
+color: rgba(188, 17, 21, 255);
+}
+</style>
+
+<!----------  Menu style codes  ------------>
+<style>
+.sidenav {
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+right: 0;
+/**  Change menu color **/
+background-color: #6f0100;
+/**  Change menu color **/
+
+overflow-x: hidden;
+transition: 0.5s;
+padding-top: 60px;
+}
+
+.sidenav a {
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 15px;
+color: #fff;
+display: block;
+transition: 0.3s;
+text-align: center;
+font-family: "Readex Pro", sans-serif;
+}
+
+.sidenav a:hover {
+color: #d9c9c9;
+}
+
+.sidenav .closebtn {
+position: absolute;
+top: 5px;
+right: 0;
+font-size: 15px;
+margin-left: 0px;
+}
+
+@media screen and (max-height: 450px) {
+.sidenav {
+padding-top: 15px;
+}
+.sidenav a {
+font-size: 18px;
+}
+}
+
+/* .Remove the scroll bar at the bottom of the blog*/
+html {
+overflow-x: hidden;
+}
+
+/* Remove changing the shape of the scroll bar Scroll.Bar */
+::-webkit-scrollbar {
+width: 7px;
+}
+::-webkit-scrollbar-thumb {
+-webkit-shadow: inset 0 0 0 #000;
+-webkit-border-radius: 0;
+background-image: -webkit-linear-gradient(top, #bc1115 100%, #000 100%);
+}
+::-webkit-scrollbar-track {
+-webkit-shadow: inset 0 0 0 #000;
+-webkit-border-radius: 100px;
+}
+</style>
+
+
+</head>
+<body dir="rtl">
+<header>
+<!--- Back page link --->
+<a href="  https://meeeetm.github.io/mt.io/ "><i id="i2" class="fa fa-arrow-left" style="font-size: 20px; color: #fff; margin-top: 2px;"></i></a>
+
+<!--- Department Name --->
+<center><h3> Turis Tv</h3></center>
+
+<!--- the list --->
+<div id="mySidenav" class="sidenav">
+<!--- logo --->
+<div class="col-md-9">
+<img src="https://od.lk/s/OTFfMjkwNzc0NThf/turistv.jpg" style="width: 180px; height: `; /* margin: 15px; */ padding: 10px; margin-top: -34px; margin-right: 15px;" />
+</div>
+
+<!---  List sections -->
+<a href="https://play.google.com/store/apps/details?id=co.wuffy.player&hl=en&referrer=utm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_term%3Dwuffy+player&pcampaignid=APPU_1_5_5tXqD2JIaNlwTF1LqwDg"> <i class="fa fa-share"></i> ⬇ꜜ⬇ꜜ⬇ INDIR </a>
+
+<a href="XXX/index.html"> <i class="fa fa-share"></i> ⬇ꜜ⬇ꜜ⬇ XXX </a>
+<a href="https://mulayimturis.000webhostapp.com/"> <i class="fa fa-share"></i> ⬇ꜜ⬇ꜜ⬇ ŞİFRELİ KAPI</a>
+
+<a href="AnaMenu/Turis-Tv.html"> <i class="fa fa-bolt"></i>   Turis Tv  Radyo  </a>
+<a href="https://s6.dosya.tc/server19/texq2s/Turis_TV.apk.html"> <i class="fa fa-envelope"></i> Turis Tv Apk</a>
+<!--- The lock code is forbidden to be deleted --->
+<a href="javascript:void(0)" onclick="closeNav()">  🔐 X Kapat Menu  </a>
+</div>
+<span style="font-size: 30px; cursor: pointer;" onclick="openNav()">
+<i id="i1" class="fa fa-bars" style="font-size: 20px; color: #fff;"></i>
+</span>
+</header>
+<div id="page">
+<div class="grid1-container">
+<div align="center" class="button">
+<div id="buttons-list">
+<!--- Application sections --->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<script>
+function openNav() {
+document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+</div>
+</div>
+</div>
+</header>
+</body>
+
+<!--Author: https://torco.tr.gg/-->
+<!--Name:  Windows 7 Başlat Tarzı Menü Kodu!-->
+ <script type="text/javascript">function CreateBookmarkLink(){  var title = document.title;var url  = location.href;if (window.sidebar){window.sidebar.addPanel(title, url, '');} else if (window.external){window.external.AddFavorite(url, title);} else if (window.opera && window.print){return true;}} </script><style type="text/css">div.jkvbk{display:none;position:fixed;text-align:center;z-index:5020;}div.xzcaa{top:25%;left:25%;}</style><!DOCTYPE HTML><style type="text/css">div.kod-dostu{width:100%;height:40px;background-image:url("http://3.bp.blogspot.com/-Wn9ys_DZYxk/T1nH-AziDjI/AAAAAAAAFE0/6n5gtBZ5LB8/s1600/arka.png");position:fixed;text-align:left;z-index:5005;}div.win7menu{bottom:0px;left:0px;}.baslatbtnd:hover{background-position:0px -41px;}.enbibaska:hover{background-position:0px -37px;}.enbibaska{margin-bottom:4px;}div.tklabnas{width:100%;height:100%;background-image:url("#");background-size:100% 100%;background-position: center center;background-repeat:no-repeat;background-color:#0c67c0;position:fixed;text-align:left;z-index:5001;}div.ivbllf{top:0px;left:0px;}.budabaska:hover{background-position:0px -86px;}.bitsinartk:hover{background-position:0px -32px;}</style><style type="text/css">div.kod-dostu{_position:absolute;}div.win7menu{_bottom:auto;_top:expression(ie6=(document.documentElement.scrollTop+document.documentElement.clientHeight - 52+"px") );}div.tklabnas{_position:absolute; display:none;}div.ivbllf{_bottom:auto;_top:expression(ie6=(document.documentElement.scrollTop+document.documentElement.clientHeight - 52+"px") );}</style><div class="tklabnas ivbllf" id="arkaplg">
+
+<a class="budabaska" href="https://twitter.com" style="position:absolute;right:1%;top:3%;display:block;width:72px;height:85px;background-image:url(https://icons.iconarchive.com/icons/danleech/simple/72/twitter-icon.png);margin:0px;padding:0px;border:none;"></a>
+
+<a style="display:block;width:220px;height:150px;position:absolute;left:90px;bottom:45px;background-image:url(http://1.bp.blogspot.com/-oS0zdQX25AQ/T1nIJOqf_jI/AAAAAAAAFGM/dMrE2bqh-v4/s1600/sdon.png)"></a></div><div class="kod-dostu win7menu"><div style="width:105px;height:40px;position:absolute;left:0px;bottom:0px;background-image:url(http://3.bp.blogspot.com/-OfFv7XFUqQQ/T1nILphkjKI/AAAAAAAAFGs/JwjjlUONiSM/s1600/soltaraf.png);">
+
+<a class="baslatbtnd"onclick="document.getElementById('kodostu').style.display='block'" style="position:absolute;left:5px;bottom:0px;display:block;width:49px;height:40px;background-image:url(http://4.bp.blogspot.com/-Poh75GOOA1Q/T1nIGHXZzeI/AAAAAAAAFFo/1Hy1FXobxGU/s1600/dugme.png);margin:0px;padding:0px;border:none;"></a></div>
+
+<a href="https://hesapmakinesi.com/" target="_blank" rel="noopener noreferrer" class="baslatbtnd"  " id="onc1"  style="position:absolute;bottom:0px;left:59px;display:block;width:60px;height:40px;background-image:url(http://4.bp.blogspot.com/-Gw1rr8SMpOU/T1nIDjNWMUI/AAAAAAAAFFM/Xdzght5wfkQ/s1600/btnsey.png);margin:0px;padding:0px;border:none;text-align:center;z-index:5015;"><img src="https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/32/MetroUI-Apps-Calculator-icon.png" style="margin:0px;padding:0px;margin-top:3px;background-color:transparent;border:none;"/></a>
+
+
+<a href="https://www.google.com.tr/" target="_blank" rel="noopener noreferrer" class="baslatbtnd"  id="onc2" onclick="document.getElementById('crbisey').style.display='block'" style="position:absolute;bottom:0px;left:121px;display:block;width:60px;height:40px;background-image:url(http://4.bp.blogspot.com/-4bK-Ry_SHMQ/T1nIEccwE-I/AAAAAAAAFFU/tD7IaCVa5O8/s1600/btnsey2.png);margin:0px;padding:0px;border:none;text-align:center;z-index:5015;"><img src="https://icons.iconarchive.com/icons/iconshots/social-media-network/32/google-icon.png" style="margin:0px;padding:0px;margin-top:3px;background-color:transparent;border:none;"/></a>
+
+<a class="baslatbtnd" id="snradan" onclick="document.getElementById('arkaplg').style.display='none';document.getElementById('snradan').style.display='none';document.getElementById('onc2').style.left='121px';document.getElementById('onc1').style.left='59px';" style="position:absolute;bottom:0px;left:59px;display:none;width:60px;height:40px;background-image:url(http://2.bp.blogspot.com/-sfVdzCjbBlU/T1nIE1qTeDI/AAAAAAAAFFc/A8bq24xA7Bk/s1600/btnsey3.png);margin:0px;padding:0px;border:none;text-align:center;z-index:5015;"><img src="http://2.bp.blogspot.com/-W2Ta9TasJa8/T1nIGsaaT8I/AAAAAAAAFF4/Zp7lra5Bix0/s1600/home.png" style="margin:0px;padding:0px;margin-top:3px;background-color:transparent;border:none;"/></a>
+
+
+<div style="width:265px;height:40px;position:absolute;right:0px;bottom:0px;background-image:url(http://4.bp.blogspot.com/-gL1jVntmxAA/T1nIIHmspzI/AAAAAAAAFGI/oaimOO-kPmU/s1600/sagtaraf.png)">
+
+<a href="#" style="margin:0px;padding:0px;background-color:transparent;background-image:url(http://2.bp.blogspot.com/-XoEsS9jwcSM/T1ss1AX3pcI/AAAAAAAAFIw/IiNCni5LLek/s1600/capture-20120310-122755.png);display:block;width:17px;height:17px;position:absolute;bottom:11px;right:120px;"></a>
+
+<center><a style="position:absolute;bottom:-2px;right:27px;color:white;font-size:12px;font-family:Lucida Grande, sans-serif;font-weight:normal !important;text-decoration:none;margin:0px;padding:0px;text-align:center;"><script type="text/javascript">
+<!--
+var currentTime = new Date()
+var hours = currentTime.getHours()
+var currentTime = new Date()
+var month = currentTime.getMonth() + 1
+if (month < 10){
+month = "0" + month
+}
+var day = currentTime.getDate()
+var year = currentTime.getFullYear()
+var minutes = currentTime.getMinutes()
+if (minutes < 10){
+minutes = "0" + minutes
+}
+document.write(hours + ":" + minutes + "<br/>" + day + "." + month + "." + year)
+//-->
+</script></a></center>
+
+
+<a class="baslatbtnd" onclick="document.getElementById('arkaplg').style.display='block';document.getElementById('snradan').style.display='block';document.getElementById('onc2').style.left='183px';document.getElementById('onc1').style.left='121px';" style="position:absolute;right:0px;bottom:0px;display:block;width:15px;height:40px;background-image:url(http://2.bp.blogspot.com/-B0GGtT_ocZ8/T1nIJzCr7pI/AAAAAAAAFGU/thyNcjafzwU/s1600/sgbt1.png);margin:0px;padding:0px;border:none;"></a>
+
+</div></div><style type="text/css">div.koddostum{display:none;width:333px;height:346px;background-image:url('http://1.bp.blogspot.com/-Nxga3GkC_Xw/T1nIDEXUxCI/AAAAAAAAFFE/fYjN0LqiPzc/s1600/baslamenusu.png');position:fixed;text-align:left;z-index:5005;}div.baslmenu{bottom:40px;left:0px;}</style><style type="text/css">div.koddostum{_position:absolute;}div.baslmenu{_bottom:auto;_top:expression(ie6=(document.documentElement.scrollTop+document.documentElement.clientHeight - 52+"px") );}</style><div class="koddostum baslmenu" id="kodostu" onmouseover="document.getElementById('kodostu').style.display='block'" onmouseout="document.getElementById('kodostu').style.display='none'"><div style="width:318px;height:322px;border:none;margin-top:11px;margin-left:10px;position:relative;">
+
+<a class="enbibaska" href="https://torco.tr.gg" style="margin:0px;padding:0px;border:0px;background-color:transparent;cursor:default;display:block;background-image:url(http://1.bp.blogspot.com/-4R7LPqb7CVU/T1nIHbXo4SI/AAAAAAAAFF8/s9EggV9sIGQ/s1600/menulil.png);width:188px;height:36px;line-height:36px;color:#282828 !important;font-size:12px;font-family:Lucida Grande, sans-serif;font-weight:normal !important;text-decoration:none;"><img src="http://2.bp.blogspot.com/-W2Ta9TasJa8/T1nIGsaaT8I/AAAAAAAAFF4/Zp7lra5Bix0/s1600/home.png" style="margin:0px;padding:0px;border:0px;background-color:transparent;float:left;margin-right:5px;margin-top:1px;margin-left:2px;"/> Ana Sayfa</a>
+
+<a class="enbibaska" href="https://torco.tr.gg/Multi_Medya.htm" style="margin:0px;padding:0px;border:0px;background-color:transparent;cursor:default;display:block;background-image:url(http://1.bp.blogspot.com/-4R7LPqb7CVU/T1nIHbXo4SI/AAAAAAAAFF8/s9EggV9sIGQ/s1600/menulil.png);width:188px;height:36px;line-height:36px;color:#282828 !important;font-size:12px;font-family:Lucida Grande, sans-serif;font-weight:normal !important;text-decoration:none;"><img src="https://icons.iconarchive.com/icons/toma4025/rumax/32/folder-multimedia-icon.png" style="margin:0px;padding:0px;border:0px;background-color:transparent;float:left;margin-right:5px;margin-top:1px;margin-left:2px;"/>Multi-Medya</a>
+
+<a class="enbibaska" href="https://torco.tr.gg/Program-ve-Oyun.htm" style="margin:0px;padding:0px;border:0px;background-color:transparent;cursor:default;display:block;background-image:url(http://1.bp.blogspot.com/-4R7LPqb7CVU/T1nIHbXo4SI/AAAAAAAAFF8/s9EggV9sIGQ/s1600/menulil.png);width:188px;height:36px;line-height:36px;color:#282828 !important;font-size:12px;font-family:Lucida Grande, sans-serif;font-weight:normal !important;text-decoration:none;"><img src="https://icons.iconarchive.com/icons/papirus-team/papirus-mimetypes/32/app-x-msdos-program-icon.png" style="margin:0px;padding:0px;border:0px;background-color:transparent;float:left;margin-right:5px;margin-top:1px;margin-left:2px;"/>Program ve Oyun</a>
+
+<a class="enbibaska" href="https://torco.tr.gg/Film-ve-Dizi.htm " style="margin:0px;padding:0px;border:0px;background-color:transparent;cursor:default;display:block;background-image:url(http://1.bp.blogspot.com/-4R7LPqb7CVU/T1nIHbXo4SI/AAAAAAAAFF8/s9EggV9sIGQ/s1600/menulil.png);width:188px;height:36px;line-height:36px;color:#282828 !important;font-size:12px;font-family:Lucida Grande, sans-serif;font-weight:normal !important;text-decoration:none;"><img src="https://icons.iconarchive.com/icons/designbolts/free-multimedia/32/Film-icon.png" style="margin:0px;padding:0px;border:0px;background-color:transparent;float:left;margin-right:5px;margin-top:1px;margin-left:2px;"/> Fİlm ve Dizi</a>
+
+
+<a class="enbibaska" href="https://torco.tr.gg/Televizyon-ve-Radyo.htm" style="margin:0px;padding:0px;border:0px;background-color:transparent;cursor:default;display:block;background-image:url(http://1.bp.blogspot.com/-4R7LPqb7CVU/T1nIHbXo4SI/AAAAAAAAFF8/s9EggV9sIGQ/s1600/menulil.png);width:188px;height:36px;line-height:36px;color:#282828 !important;font-size:12px;font-family:Lucida Grande, sans-serif;font-weight:normal !important;text-decoration:none;"><img src="https://icons.iconarchive.com/icons/paomedia/small-n-flat/32/device-tv-icon.png" style="margin:0px;padding:0px;border:0px;background-color:transparent;float:left;margin-right:5px;margin-top:1px;margin-left:2px;"/> TV ve Radyo</a>
+
+<a class="enbibaska" href="https://torco.tr.gg/forum/index.htm"  rel="noopener noreferrer" style="margin:0px;padding:0px;border:0px;background-color:transparent;cursor:default;display:block;background-image:url(http://1.bp.blogspot.com/-4R7LPqb7CVU/T1nIHbXo4SI/AAAAAAAAFF8/s9EggV9sIGQ/s1600/menulil.png);width:188px;height:36px;line-height:36px;color:#282828 !important;font-size:12px;font-family:Lucida Grande, sans-serif;font-weight:normal !important;text-decoration:none;"><img src="https://icons.iconarchive.com/icons/shaunkleyn/phlat-blue-folders/32/Groups-icon.png" style="margin:0px;padding:0px;border:0px;background-color:transparent;float:left;margin-right:5px;margin-top:1px;margin-left:2px;"/> Forum</a>
+
+
+<a class="enbibaska" href="https://torco.tr.gg/?forceVersion=mobile" style="margin:0px;padding:0px;border:0px;background-color:transparent;cursor:default;display:block;background-image:url(http://1.bp.blogspot.com/-4R7LPqb7CVU/T1nIHbXo4SI/AAAAAAAAFF8/s9EggV9sIGQ/s1600/menulil.png);width:188px;height:36px;line-height:36px;color:#282828 !important;font-size:12px;font-family:Lucida Grande, sans-serif;font-weight:normal !important;text-decoration:none;"><img src="https://icons.iconarchive.com/icons/graphicloads/100-flat-2/32/mobile-2-icon.png" style="margin:0px;padding:0px;border:0px;background-color:transparent;float:left;margin-right:5px;margin-top:1px;margin-left:2px;"/> Mobil Görünüm</a>
+
+<a href="javascript:void(0)" style="position:absolute;top:5px;right:10px;font-size:22px;color:#222;text-decoration:none;" onclick="document.getElementById('kodostu').style.display='none'">X</a>
+<div style="position:absolute;bottom:-7px;left:14px;">    <FORM NAME="myform" ACTION="" METHOD="GET"><div><center><div style=" max-width:175px; border:0px "><script async src="https://cse.google.com/cse.js?cx=61f8de2cd24bb4a1a"></script>
+<div class="gcse-searchbox-only">&nbsp;</div>
+</center> </div>
+
+
+<div style="position:absolute;right:0px;top:0px;height:315px;width:122px;"><div style="width:120px;height:80px;"></div><a class="bitsinartk" href="#" style="margin-bottom:3px;cursor:default;display:block;width:120px;height:31px;background-image:url(http://1.bp.blogspot.com/-Vy81mIyQeBA/T1nIKETl_SI/AAAAAAAAFGc/YFijwmcrRxc/s1600/sgbtk.png);font-size:12px;font-family:Lucida Grande, sans-serif;color:white;font-weight:normal;text-decoration:none;text-indent:13px;line-height:31px;">Kod Önizle</a><a class="bitsinartk" onclick="CreateBookmarkLink();" rel="nofollow" style="cursor:default;margin-top:8px;display:block;width:120px;height:31px;background-image:url(http://1.bp.blogspot.com/-Vy81mIyQeBA/T1nIKETl_SI/AAAAAAAAFGc/YFijwmcrRxc/s1600/sgbtk.png);font-size:12px;font-family:Lucida Grande, sans-serif;color:white;font-weight:normal;text-decoration:none;text-indent:13px;line-height:31px;">Favorilere Ekle</a></div></div></div><div id="crbisey" class="bill bull" style="display:none;width:100%;height:100%;padding-top:12%;"><center><div align="center" style="width:417px;height:279px;margin:0px;padding:0px;background-image:url(http://4.bp.blogspot.com/-C0zXxUYx674/TxRLiv3lqBI/AAAAAAAAELQ/f45ntQCoZjQ/s1600/arkapp.png);position:relative;"><a href="javascript:void(0);" onclick="document.getElementById('crbisey').style.display='none';document.getElementById('onc2').style.display='none'" class="kapamag" style="display:block;position:absolute;right:5px;top:0px;width:43px;height:18px;background-image:url(http://1.bp.blogspot.com/-DgcO4ceAihU/TxRLjIeodQI/AAAAAAAAELY/Z2j9VYWgwsA/s1600/kapamag.png);margin:0px;padding:0px;border:none;"></a><a href="javascript:void(0);" onclick="document.getElementById('crbisey').style.display='none';" class="kapamag" style="display:block;position:absolute;right:47px;top:0px;width:26px;height:18px;background-image:url(http://1.bp.blogspot.com/-xrP0uP7mqO0/TxRLkZ4_3wI/AAAAAAAAELo/Cp1Isut1cNU/s1600/kucultag.png);margin:0px;padding:0px;border:none;"></a><div style="width:405px;height:250px;position:absolute;margin-top:23px;margin-left:6px;"><iframe src="http://www.facebook.com/plugins/likebox.php?href=https://&width=405&height=250&colorscheme=light&show_faces=false&border_color=%23ffffff&stream=true&header=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:405px; height:395px;" allowTransparency="true"></iframe></div>
+
+<a href="#" target="_blank" class="reklag" style="display:block;position:absolute;right:0px;bottom:0px;width:100px;height:25px;background-image:url();margin:0px;padding:0px;border:none;"></a></div></center></div><style>.kapamag:hover{background-position:0 19px;} .acmag:hover{background-position:0 23px;} .reklag:hover{background-position:0 26px;} </style><style type="text/css">div.bill{position:fixed;text-align:center;z-index:5005;}div.bull{line-height:22px;margin:0px;padding:0px;top:0px;left:0px;}</style><style type="text/css">div.bill{_position:absolute;}div.bull{_bottom:auto;_top:expression(ie6=(document.documentElement.scrollTop+document.documentElement.clientHeight - 52+"px") );}</style>
+<script src="https://torco.tr.gg"></script>

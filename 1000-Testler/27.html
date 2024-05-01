@@ -1,0 +1,459 @@
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Roboto:wght@300&display=swap" rel="stylesheet" />
+<title>Turis Tv</title>
+<meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport" />
+
+<!---------------------
+
+Design: Turis Mulayim
+Design name: Turis Mulayim 
+contact number : +32486790423 
+YouTube link for more explanations and codes html
+https://www.youtube.com/c/Androidsh
+We hope that this data will not be deleted
+Good luck to all ♥
+
+---------------------->
+
+<!----------  Channel style codes  ------------>
+<style type="text/css">
+.grid-container {
+display: grid;
+justify-content: center;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 5px 5px;
+padding: 10px;
+}
+.grid1-container {
+display: grid;
+justify-content: center;
+grid-template-columns: repeat(1, 1fr);
+grid-gap: 10px;
+
+color: white;
+padding: px;
+}
+h1 {
+text-align: center;
+margin-top: 1px;
+font-weight: bold;
+font-family: "Readex Pro", sans-serif;
+
+}
+
+h2 {
+text-align: center;
+margin-top: 0.5px;
+font-size: 12px;
+color: #8d8daa;
+font-family: "Readex Pro", sans-serif;
+font-weight: bold;
+}
+
+button {
+border-radius: 8px;
+background-image: linear-gradient(to right, #ffffff, #ffffff);
+border-color: #990000;
+padding: 0px;
+margin: 3px;
+height: 130px;
+width: 100px;
+cursor: pointer;
+}
+
+.button {
+text-align: center;
+}
+ {
+display: block;
+}
+button:active {
+border: 2px solid #f00;
+}
+
+</style>
+
+
+
+
+
+
+<!----------  Comprehensive application style codes  ------------>
+<style type="text/css">
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap");
+body {
+padding: 0;
+margin: 0;
+user-select: none;
+list-style: none;
+background: #ffffff;
+background-size: cover;
+font-weight: 500;
+font-size: 16px;
+text-align: right;
+margin: auto;
+/* position: relative; */
+direction: ltr;
+
+/**  Change the application background **/
+background-image: url(https://od.lk/s/OTFfMjkwNzc1MTZf/back2.jpg);
+/**  Change the application background **/
+}
+h3 {
+text-align: center;
+/* text-align: right; */
+/* padding-right: 65px; */
+/* padding-top: 2px;
+    font-size: medium; */
+font-weight: 200;
+font-family: "Readex Pro", sans-serif;
+}
+
+header {
+/**  Change the logo background color   **/
+background: rgba(100,0,0,255);
+/**  Change the logo background color   **/
+padding: 2px;
+color: #fff;
+margin-bottom: 10px;
+position: fixed;
+top: 0;
+height: 60px;
+width: 100%;
+box-shadow: 0px 0px 7px black;
+z-index: 1;
+}
+
+#i1 {
+position: fixed;
+top: 21px;
+
+right: 17px;
+font-size: 40px;
+}
+#i2 {
+position: fixed;
+top: 21px;
+left: 14px;
+font-size: 40px;
+}
+#i3 {
+position: fixed;
+top: 16px;
+left: 40px;
+font-size: 40px;
+}
+
+#page:hover {
+background: none;
+}
+#page {
+margin-top: 75px;
+width: 100%;
+}
+
+#page a:hover {
+background: #fff;
+}
+#page a {
+height: 50px;
+padding-top: 2px;
+padding-bottom: 2px;
+margin-bottom: 11px;
+border: 2px solid rgba(188, 17, 21, 255);
+border-radius: 15px;
+width: 91%;
+display: inline-block;
+margin-right: 14px;
+margin-left: 14px;
+background: white;
+}
+#page a img {
+/*height:50px;
+margin-right:10px;
+width:50px;
+padding-bottom:4px;
+*/
+height: 50px;
+margin-right: 10px;
+width: 50px;
+padding-bottom: 4px;
+}
+#page a p {
+text-align: center;
+font-family: "Readex Pro", sans-serif;
+/* position: absolute; */
+/* margin-right: 20px; */
+/* margin-top: -40px; */
+display: inline-block;
+font-weight: 550;
+color: rgba(188, 17, 21, 255);
+}
+</style>
+
+<!----------  Menu style codes  ------------>
+<style>
+.sidenav {
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+right: 0;
+/**  Change menu color **/
+background-color: #6f0100;
+/**  Change menu color **/
+
+overflow-x: hidden;
+transition: 0.5s;
+padding-top: 60px;
+}
+
+.sidenav a {
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 15px;
+color: #fff;
+display: block;
+transition: 0.3s;
+text-align: center;
+font-family: "Readex Pro", sans-serif;
+}
+
+.sidenav a:hover {
+color: #d9c9c9;
+}
+
+.sidenav .closebtn {
+position: absolute;
+top: 5px;
+right: 0;
+font-size: 15px;
+margin-left: 0px;
+}
+
+@media screen and (max-height: 450px) {
+.sidenav {
+padding-top: 15px;
+}
+.sidenav a {
+font-size: 18px;
+}
+}
+
+/* .Remove the scroll bar at the bottom of the blog*/
+html {
+overflow-x: hidden;
+}
+
+/* Remove changing the shape of the scroll bar Scroll.Bar */
+::-webkit-scrollbar {
+width: 7px;
+}
+::-webkit-scrollbar-thumb {
+-webkit-shadow: inset 0 0 0 #000;
+-webkit-border-radius: 0;
+background-image: -webkit-linear-gradient(top, #bc1115 100%, #000 100%);
+}
+::-webkit-scrollbar-track {
+-webkit-shadow: inset 0 0 0 #000;
+-webkit-border-radius: 100px;
+}
+</style>
+
+
+</head>
+<body dir="rtl">
+<header>
+<!--- Back page link --->
+<a href="  https://meeeetm.github.io/mt.io/ "><i id="i2" class="fa fa-arrow-left" style="font-size: 20px; color: #fff; margin-top: 2px;"></i></a>
+
+<!--- Department Name --->
+<center><h3> Turis Tv</h3></center>
+
+<!--- the list --->
+<div id="mySidenav" class="sidenav">
+<!--- logo --->
+<div class="col-md-9">
+<img src="https://od.lk/s/OTFfMjkwNzc0NThf/turistv.jpg" style="width: 180px; height: `; /* margin: 15px; */ padding: 10px; margin-top: -34px; margin-right: 15px;" />
+</div>
+
+<!---  List sections -->
+<a href="https://play.google.com/store/apps/details?id=co.wuffy.player&hl=en&referrer=utm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_term%3Dwuffy+player&pcampaignid=APPU_1_5_5tXqD2JIaNlwTF1LqwDg"> <i class="fa fa-share"></i> ⬇ꜜ⬇ꜜ⬇ INDIR </a>
+
+<a href="XXX/index.html"> <i class="fa fa-share"></i> ⬇ꜜ⬇ꜜ⬇ XXX </a>
+<a href="https://mulayimturis.000webhostapp.com/"> <i class="fa fa-share"></i> ⬇ꜜ⬇ꜜ⬇ ŞİFRELİ KAPI</a>
+
+<a href="AnaMenu/Turis-Tv.html"> <i class="fa fa-bolt"></i>   Turis Tv  Radyo  </a>
+<a href="https://s6.dosya.tc/server19/texq2s/Turis_TV.apk.html"> <i class="fa fa-envelope"></i> Turis Tv Apk</a>
+<!--- The lock code is forbidden to be deleted --->
+<a href="javascript:void(0)" onclick="closeNav()">  🔐 X Kapat Menu  </a>
+</div>
+<span style="font-size: 30px; cursor: pointer;" onclick="openNav()">
+<i id="i1" class="fa fa-bars" style="font-size: 20px; color: #fff;"></i>
+</span>
+</header>
+<div id="page">
+<div class="grid1-container">
+<div align="center" class="button">
+<div id="buttons-list">
+<!--- Application sections --->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<script>
+function openNav() {
+document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+</div>
+</div>
+</div>
+</header>
+</body>
+
+<img height="1" alt="" width="1" border="0" src="" /><br />
+<table cellspacing="0" cellpadding="0" align="center" border="0" style="width: 586px; height: 355px">
+    <tbody>
+        <tr>
+            <td valign="top" align="center">
+            <div id="CamName">&nbsp;</div>
+            <iframe name="CamWindow" src="https://www.fullhdfilmizlesene.com/filmler" frameborder="0" width="500" scrolling="yes" height="800" style="margin-top: -45px"></iframe></td>
+            <td valign="top" align="center"><SCRIPT language=JavaScript>
+function WriteCamName(camdesc) {
+document.getElementById('CamName').innerHTML = camdesc;
+}
+</SCRIPT>
+            <div id="CamName">&nbsp;</div>
+            <b style="font-size: 16px; color: navy">
+            <div style="margin-top: -45px; padding-left: 0px; overflow: auto; width: 900px; height: 800px; text-align: left">
+            <ul>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.youtube.com/embed/88tf0H1ycDU?autoplay=1">Kralpop</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.livescore.bz/webmasters.asp?lang=en&amp;sport=football(soccer)&amp;data-1=today&amp;data-2=&amp;word=livescore">Canliskor</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.dailymotion.com/embed/video/x67cguc">Nr1turk</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.tivitrend.com/">Tivitrend</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.hayatmix.com/">Hayatmix</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.filmon.com/tv/bbc-news">Worldtv</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://you.dj/">Dj</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://solitaire.frvr.com/">Kart</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://esube.iskur.gov.tr/Istihdam/AcikIsIlanAra.aspx">Isilani</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://frvr.com/#games">Games</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.clipzui.com/search?k=TURKCE">Video</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://soyle.net/sohbet/index.php?nickname=">Chat</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://kworb.net/youtube/insights/tr.html">Reyting</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.canliradyodinle.fm">Radyolar</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.smashcast.tv/browse">Smashcast</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.solitr.com/">Solitr</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.youtube.com/embed/M0eAO5YMDXQ?autoplay=1">Tv100</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.youtube.com/embed/inOugVa_NYA?autoplay=1">Showtv</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.youtube.com/embed/XKE5Cq6JOk8?autoplay=1">Atv</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.youtube.com/embed/XEJM4Hcgd3M?autoplay=1">Ntv</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.youtube.com/embed/deKH0pQ7-rg?autoplay=1">Haberturk</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.youtube.com/embed/c0Na7E1EVk8?autoplay=1">Cnnturk</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.youtube.com/embed/6Y0hIK0eI-U?autoplay=1">Haber Global</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.youtube.com/embed/TSM4B00golw?autoplay=1">Kralfm</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.vision-environnement.com/live/player/istanbul0.php">Istanbul</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.vision-environnement.com/live/player/alanya0.php">Alanya</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.vision-environnement.com/live/player/kayseri0.php">Kayseri</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.vision-environnement.com/live/player/erciyes0.php">Erciyes</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.hulkshare.com/search/TURKCE">Hulkshare</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.numberone.com.tr/2015/12/18/nr1-tv-canli-yayin/">Numberone</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.seslisozluk.net/">Seslisozluk</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.javasizchat.com/">Javasizchat</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.canim.info/">Canimchat</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.uludagsozluk.com/">Uludagsozluk</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://tr.instela.com/">Instela</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.eksiduyuru.com/bugun">Duyuru</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://yupickup.com/">Yupickup</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.okeyy.net/okey.html">Okey</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.clipzui.com/search?k=turk">Clipzui</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://puhutv.com/turk-filmleri">Puhutv</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://tr.aptoide.com/">Uygulamalar</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://ipcamlive.com/player/player.php?alias=573c49f1b13ff">Webcam</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://jspaint.app">Paint</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://1000kitap.com/">1000Kitap</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.twittergunlugu.com/">Twitgunlugu</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://sohbet.mynet.bz/">Mynetsohbet</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.sohbetburada.com/sohbet/">Sohbetburada</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.idealsohbet.com/">Idealsohbet</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.ortambizde.com/">Ortambizde</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://trchat.com.tr/">Trchat</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.yetiskinsohbet.com.tr/client/">Yetiskin</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.zurnachat.com/">Zurnachat</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.novelheroes.com/tr">Novelheroes</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://funny-video-online.com/tags/turk">Funnyvideo</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.neokur.com/">Neokur</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://letsloop.com/new-music">Letsloop</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.nedir.org/">Nedir</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.trendsmap.com/local/turkey">Trendsmap</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.gezginsozluk.org/">Gezginsozluk</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://guldum.net/">Guldum</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://metapop.com/discover">Metapop</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.gazetekolay.com/sitene-ekle/source/slider.php?siteler=">Haber</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://canlitv.center/canlitv">Tv1</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.canlitv.vin/canlitv.php">Tv2</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://web.canlitvlive.io/tvizle.php?t=2">Tv3</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.canlitv.app/tv.php">Tv4</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://gulsentv.tr.gg/Sarki.htm">Sarki</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://gulsentv.tr.gg/Muzik.htm">Muzik</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://kuran.diyanet.gov.tr/mushaf">Kuran</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.clearquran.com/">Quran</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.inddir.com/">Indir</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://dizimom.com/">Dizi</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://vreale.tv/videochat.html#main">Videochat</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://muzikdinledur.com/">Muzikdinle</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.gazeteler.tv/">Gazeteler</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.duslerforum.org">Duslerforum</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://yapisor.com">Yapisor</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://korku.tv">Korku</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.neoldu.com">Neoldu</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://paratic.com">Paratic</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.neolacakki.com">Neolacakki</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.filmlegez.com">Filmlegez</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.koseyazisioku.com">Koseyazisi</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://turkishmedia.net">Linkler</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.medyalar.net">Medyalar</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://sosyalmedya.co">Sosyalmedya</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.canlimobese.com">Mobese</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://kuran.diyanet.gov.tr/elifba">Kuran</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://thclips.com/">Thclips</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://mym.fans/">MymFans</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.korkusuz.com.tr">Korkusuz</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://bubiroyun.com">Bubiroyun</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://imginn.com/tags/sarki">Imginn</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://picinonline.com/htag/sarki">Picinonline</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://wmaraci.com">Wmaraci</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.webtekno.com">Webtekno</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://forum.donanimhaber.com">Donanimhaber</a></li>
+                <li><a title="" target="CamWindow" onclick="WriteCamName('&lt;b style='color: navy; font-size: 14px;' style='color: navy; font-size: 12px;'&gt;;')" href="https://www.yoncu.com/forum">Yoncu</a></li>
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+            </ul>
+            </div>
+            </b></td>
+        </tr>
+    </tbody>
+</table>
