@@ -1,0 +1,207 @@
+
+.live-broadcast-title h1, .live-broadcast-title h2 { font-size: 20px; line-height: 38px; font-family: var(--font-bold); color: #284a77; }
+.live-broadcast-box { height: 170px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-shadow: 0 0 0px 2px #284a77; box-shadow: 0 0 0px 2px #284a77; border-radius: 4px; -webkit-transition:.2s; -o-transition:.2s; transition:.2s; position: relative; overflow: hidden;}
+.live-broadcast-box:hover { -webkit-box-shadow: none; box-shadow: none; }
+.live-broadcast-box:before { content: ''; width:100%; height:0; position:absolute; left:0; bottom:0; -webkit-transition: .2s; -o-transition: .2s; transition: .2s; z-index: 2; }
+.live-broadcast-box.hover-text-hidden:hover .live-broadcast-box-text { opacity: 0; }
+.live-broadcast-box > * { position:relative; z-index:5; }
+.live-broadcast-box:hover:before { height:100%; }
+.live-broadcast-box-image { -webkit-box-flex: 9999; -ms-flex-positive: 9999; flex-grow: 9999; max-height: calc(100% - 45px); display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; padding:10px; }
+.live-broadcast-box-image img { max-width: 90px; max-height: 80px; width:auto; height:auto; }
+.live-broadcast-box-text { -ms-flex-negative: 0; flex-shrink: 0; height:45px; position:relative; }
+.live-broadcast-box-text:before { content:''; width:60%; max-width:126px; height: 2px; background-color: #284a77; position:absolute; top:0; left:50%; -webkit-transform:translateX(-50%); -ms-transform:translateX(-50%); transform:translateX(-50%); border-radius: 4px;}
+.live-broadcast-box-text a { width:100%; height:100%; display:-webkit-box; display:-ms-flexbox; display:flex; -webkit-box-align:center; -ms-flex-align:center; align-items:center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+.live-broadcast-box-text a span { font-size:16px; color:#284a77; font-family:var(--font-medium);  margin-right: 21px;}
+.live-broadcast-box-text a svg { margin-top:2px; }
+
+.live-broadcast-box.radio { background-color:#f9f9f9; }
+.live-broadcast-box:hover .live-broadcast-box-text span { color:#fff; }
+.live-broadcast-box:hover .live-broadcast-box-text:before { background-color:#fff; }
+.live-broadcast-box:hover .live-broadcast-box-text svg path {fill: #fff!important;}
+
+.live-broadcast-player { width: 100%; height: 0; padding-bottom:56.25%; position: relative; z-index:50; 
+	background: rgb(255,255,255);
+	background: -o-radial-gradient(center,  ellipse,  rgba(255,255,255,1) 0%,rgba(187,214,224,1) 100%);
+	background: radial-gradient(ellipse at center,  rgba(255,255,255,1) 0%,rgba(187,214,224,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#bbd6e0',GradientType=1 );
+} 
+.live-broadcast-player:before { content: ''; width: 213px; height: 247px; background: url(../i/vav-logo.png) no-repeat center center; position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); transform: translate(-50%,-50%); background-size: contain; max-height: 80%; max-width: 80%; }
+.live-broadcast-player > *{ width:100%!important; height:100%!important; position:absolute; top:0; left:0;  }
+
+@media (min-width: 767px) {
+	.live-broadcast-title h1, .live-broadcast-title h2 { font-size:27px; }
+	.live-broadcast-box{ height:216px; }
+	.live-broadcast-box-text { height:56px; }
+	.live-broadcast-box-text a span { font-size:22px; }
+	.live-broadcast-box-image { height:calc(100% - 56px); }
+	.live-broadcast-box-image img { max-width: 120px; max-height: 110px; }
+}
+
+@media (min-width: 1200px) {
+	.live-broadcast-box{ height:226px; }
+	
+}
+
+@media (min-width: 1440px) {
+	.live-broadcast-box{ height:267px; }
+	.live-broadcast-box-image img { max-width:100%; max-height:100%; }
+}
+
+.live-broadcast-box.atv:before { 
+	background: rgb(247,247,247);
+	background: -webkit-gradient(linear,  left top, left bottom,  from(rgba(247,247,247,1)),to(rgba(245,139,88,1)));
+	background: -o-linear-gradient(top,  rgba(247,247,247,1) 0%,rgba(245,139,88,1) 100%);
+	background: linear-gradient(to bottom,  rgba(247,247,247,1) 0%,rgba(245,139,88,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#f58b58',GradientType=0 );
+}
+.live-broadcast-box.ahaber:before{
+	background: rgb(247,247,247);
+	background: -webkit-gradient(linear,  left top, left bottom,  from(rgba(247,247,247,1)),to(rgba(186,54,54,1)));
+	background: -o-linear-gradient(top,  rgba(247,247,247,1) 0%,rgba(186,54,54,1) 100%);
+	background: linear-gradient(to bottom,  rgba(247,247,247,1) 0%,rgba(186,54,54,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#ba3636',GradientType=0 );
+}
+.live-broadcast-box.aspor:before{
+	background: rgb(247,247,247);
+	background: -webkit-gradient(linear,  left top, left bottom,  from(rgba(247,247,247,1)),to(rgba(46,124,122,1)));
+	background: -o-linear-gradient(top,  rgba(247,247,247,1) 0%,rgba(46,124,122,1) 100%);
+	background: linear-gradient(to bottom,  rgba(247,247,247,1) 0%,rgba(46,124,122,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#2e7c7a',GradientType=0 );
+}
+
+.live-broadcast-box.apara:before{
+	background: rgb(247,247,247);
+	background: -webkit-gradient(linear,  left top, left bottom,  from(rgba(247,247,247,1)),to(rgba(47,55,155,1)));
+	background: -o-linear-gradient(top,  rgba(247,247,247,1) 0%,rgba(47,55,155,1) 100%);
+	background: linear-gradient(to bottom,  rgba(247,247,247,1) 0%,rgba(47,55,155,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#2f379b',GradientType=0 );
+}
+
+.live-broadcast-box.a2:before{
+	background: rgb(247,247,247);
+	background: -webkit-gradient(linear,  left top, left bottom,  from(rgba(247,247,247,1)),to(rgba(104,54,117,1)));
+	background: -o-linear-gradient(top,  rgba(247,247,247,1) 0%,rgba(104,54,117,1) 100%);
+	background: linear-gradient(to bottom,  rgba(247,247,247,1) 0%,rgba(104,54,117,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#683675',GradientType=0 );
+}
+
+.live-broadcast-box.vavtv:before{
+	background: rgb(247,247,247);
+	background: -webkit-gradient(linear,  left top, left bottom,  from(rgba(247,247,247,1)),to(rgba(94,212,224,1)));
+	background: -o-linear-gradient(top,  rgba(247,247,247,1) 0%,rgba(94,212,224,1) 100%);
+	background: linear-gradient(to bottom,  rgba(247,247,247,1) 0%,rgba(94,212,224,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#5ed4e0',GradientType=0 );
+}
+
+.live-broadcast-box.anews:before{
+	background: rgb(247,247,247);
+	background: -webkit-gradient(linear,  left top, left bottom,  from(rgba(247,247,247,1)),to(rgba(188,71,71,1)));
+	background: -o-linear-gradient(top,  rgba(247,247,247,1) 0%,rgba(188,71,71,1) 100%);
+	background: linear-gradient(to bottom,  rgba(247,247,247,1) 0%,rgba(188,71,71,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#bc4747',GradientType=0 );
+}
+
+.live-broadcast-box.minika-go:before{
+	background: rgb(247,247,247);
+	background: -webkit-gradient(linear,  left top, left bottom,  from(rgba(247,247,247,1)),to(rgba(75,207,236,1)));
+	background: -o-linear-gradient(top,  rgba(247,247,247,1) 0%,rgba(75,207,236,1) 100%);
+	background: linear-gradient(to bottom,  rgba(247,247,247,1) 0%,rgba(75,207,236,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#4bcfec',GradientType=0 );
+}
+
+.live-broadcast-box.minika-cocuk:before{
+	background: rgb(247,247,247);
+	background: -webkit-gradient(linear,  left top, left bottom,  from(rgba(247,247,247,1)),to(rgba(142,198,61,1)));
+	background: -o-linear-gradient(top,  rgba(247,247,247,1) 0%,rgba(142,198,61,1) 100%);
+	background: linear-gradient(to bottom,  rgba(247,247,247,1) 0%,rgba(142,198,61,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#8ec63d',GradientType=0 );
+}
+
+/* radyo alanı  */
+.live-broadcast-box.ahaber-radio:before{
+	background: rgb(247,247,247);
+	background: -webkit-gradient(linear,  left top, left bottom,  from(rgba(247,247,247,1)),to(rgba(182,84,80,1)));
+	background: -o-linear-gradient(top,  rgba(247,247,247,1) 0%,rgba(182,84,80,1) 100%);
+	background: linear-gradient(to bottom,  rgba(247,247,247,1) 0%,rgba(182,84,80,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#b65450',GradientType=0 );
+}
+
+.live-broadcast-box.anews-radio:before{
+	background: rgb(247,247,247);
+	background: -webkit-gradient(linear,  left top, left bottom,  from(rgba(247,247,247,1)),to(rgba(205,73,73,1)));
+	background: -o-linear-gradient(top,  rgba(247,247,247,1) 0%,rgba(205,73,73,1) 100%);
+	background: linear-gradient(to bottom,  rgba(247,247,247,1) 0%,rgba(205,73,73,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#cd4949',GradientType=0 );
+}
+
+.live-broadcast-box.aspor-radio:before{
+	background: rgb(247,247,247);
+	background: -webkit-gradient(linear,  left top, left bottom,  from(rgba(247,247,247,1)),to(rgba(46,124,123,1)));
+	background: -o-linear-gradient(top,  rgba(247,247,247,1) 0%,rgba(46,124,123,1) 100%);
+	background: linear-gradient(to bottom,  rgba(247,247,247,1) 0%,rgba(46,124,123,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#2e7c7b',GradientType=0 );
+}
+
+.live-broadcast-box.turkuaz-radio:before{
+	background: rgb(247,247,247);
+	background: -webkit-gradient(linear,  left top, left bottom,  from(rgba(247,247,247,1)),to(rgba(40,191,207,1)));
+	background: -o-linear-gradient(top,  rgba(247,247,247,1) 0%,rgba(40,191,207,1) 100%);
+	background: linear-gradient(to bottom,  rgba(247,247,247,1) 0%,rgba(40,191,207,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#28bfcf',GradientType=0 );
+}
+
+.live-broadcast-box.energy-radio:before{
+	background: rgb(247,247,247);
+	background: -webkit-gradient(linear,  left top, left bottom,  from(rgba(247,247,247,1)),to(rgba(144,71,174,1)));
+	background: -o-linear-gradient(top,  rgba(247,247,247,1) 0%,rgba(144,71,174,1) 100%);
+	background: linear-gradient(to bottom,  rgba(247,247,247,1) 0%,rgba(144,71,174,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#9047ae',GradientType=0 );
+}
+
+.live-broadcast-box.anadolu-radio:before{
+	background: rgb(247,247,247);
+	background: -webkit-gradient(linear,  left top, left bottom,  from(rgba(247,247,247,1)),to(rgba(220,194,123,1)));
+	background: -o-linear-gradient(top,  rgba(247,247,247,1) 0%,rgba(220,194,123,1) 100%);
+	background: linear-gradient(to bottom,  rgba(247,247,247,1) 0%,rgba(220,194,123,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#dcc27b',GradientType=0 );
+}
+
+.live-broadcast-box.radio-soft:before{
+	background: rgb(247,247,247);
+	background: -webkit-gradient(linear,  left top, left bottom,  from(rgba(247,247,247,1)),to(rgba(103,200,197,1)));
+	background: -o-linear-gradient(top,  rgba(247,247,247,1) 0%,rgba(103,200,197,1) 100%);
+	background: linear-gradient(to bottom,  rgba(247,247,247,1) 0%,rgba(103,200,197,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#67c8c5',GradientType=0 );
+}
+
+.live-broadcast-box.radio-romantic:before{
+	background: rgb(247,247,247);
+	background: -webkit-gradient(linear,  left top, left bottom,  from(rgba(247,247,247,1)),to(rgba(207,126,160,1)));
+	background: -o-linear-gradient(top,  rgba(247,247,247,1) 0%,rgba(207,126,160,1) 100%);
+	background: linear-gradient(to bottom,  rgba(247,247,247,1) 0%,rgba(207,126,160,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#cf7ea0',GradientType=0 );
+}
+
+.live-broadcast-box.radio-efsane:before{
+	background: rgb(247,247,247);
+	background: -webkit-gradient(linear,  left top, left bottom,  from(rgba(247,247,247,1)),to(rgba(40,112,121,1)));
+	background: -o-linear-gradient(top,  rgba(247,247,247,1) 0%,rgba(40,112,121,1) 100%);
+	background: linear-gradient(to bottom,  rgba(247,247,247,1) 0%,rgba(40,112,121,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#287079',GradientType=0 );
+}
+
+.live-broadcast-box.radio-efsane:before{
+	background: rgb(247,247,247);
+	background: -webkit-gradient(linear,  left top, left bottom,  from(rgba(247,247,247,1)),to(rgba(40,112,121,1)));
+	background: -o-linear-gradient(top,  rgba(247,247,247,1) 0%,rgba(40,112,121,1) 100%);
+	background: linear-gradient(to bottom,  rgba(247,247,247,1) 0%,rgba(40,112,121,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#287079',GradientType=0 );
+}
+
+.live-broadcast-box.radio-vav:before{
+	background: rgb(247,247,247);
+	background: -webkit-gradient(linear,  left top, left bottom,  from(rgba(247,247,247,1)),to(rgba(66,184,210,1)));
+	background: -o-linear-gradient(top,  rgba(247,247,247,1) 0%,rgba(66,184,210,1) 100%);
+	background: linear-gradient(to bottom,  rgba(247,247,247,1) 0%,rgba(66,184,210,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#42b8d2',GradientType=0 );
+}

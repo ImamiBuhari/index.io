@@ -1,0 +1,143 @@
+﻿@charset "utf-8";
+
+.ramadan-band-widget {
+    width: 320px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background: url('../i/ramazan-2024-ttnet-320x50-v2.jpg') center no-repeat;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+    box-sizing: border-box;
+}
+
+    .ramadan-band-widget .link {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 10;
+    }
+
+    .ramadan-band-widget .coutdown-widget-block {
+        width: 108px;
+        position: absolute;
+        top: 4px;
+        right: 0;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .ramadan-band-widget .coutdown-widget-block .title {
+            font-size: 8px;
+            line-height: 10px;
+            color: #fff;
+            text-align: center;
+            font-weight: 700;
+        }
+
+    .ramadan-band-widget .time {
+        display: flex;
+        align-items: center;
+    }
+
+        .ramadan-band-widget .time span {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            font-size: 16px;
+        }
+
+            .ramadan-band-widget .time span:after {
+                font-size: 8px;
+                color: #fff;
+                font-weight: 400;
+            }
+
+            .ramadan-band-widget .time span:nth-child(1):after {
+                content: 'SAAT';
+            }
+
+            .ramadan-band-widget .time span:nth-child(2):after {
+                content: 'DAKİKA';
+            }
+
+            .ramadan-band-widget .time span:nth-child(3):after {
+                content: 'SANİYE';
+            }
+
+            .ramadan-band-widget .time span strong {
+                display: block;
+                font-weight: 700;
+                font-size: 17px;
+                line-height: 14px;
+            }
+
+    .ramadan-band-widget .coutdown-widget-block .time span + span {
+        padding-left: 8px;
+    }
+
+        .ramadan-band-widget .coutdown-widget-block .time span + span:before {
+            content: ":";
+            font-size: 16px;
+            font-weight: bold;
+            position: absolute;
+            left: 4px;
+            top: -5px;
+        }
+
+
+
+
+@media (min-width: 768px) {
+
+    .ramadan-band-widget {
+        width: 970px;
+        height: 90px;
+        background-image: url('../i/ramazan-2024-ttnet-970x90-v2.jpg');
+        background-position: left center;
+    }
+
+    .ramadan-band-widget {
+    }
+
+        .ramadan-band-widget .coutdown-widget-block {
+            width: 290px;
+            top: 10px;
+            right: 0;
+        }
+
+            .ramadan-band-widget .coutdown-widget-block .title {
+                padding-right: 10px;
+                font-size: 12px;
+                line-height: 18px;
+            }
+
+        .ramadan-band-widget .time span strong {
+            font-size: 40px;
+            line-height: 36px;
+        }
+
+        .ramadan-band-widget .time span:after {
+            font-size: 13px;
+        }
+
+        .ramadan-band-widget .coutdown-widget-block .time span + span {
+            padding-left: 20px;
+        }
+
+            .ramadan-band-widget .coutdown-widget-block .time span + span:before {
+                top: -11px;
+                left: 5px;
+                font-size: 40px;
+            }
+}
