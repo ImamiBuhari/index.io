@@ -1,0 +1,128 @@
+html {
+    box-sizing: border-box;
+    font-size:62.5% ;
+}
+*, *:before, *:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+/** global*/
+:root {
+  --background: #7f828cff;
+  --content: #1e1f23ff;
+  --borde:#e1e1e1;
+  --color:#e8e8e9ff;
+  --btn:#2cbcabff;
+  --backinput:#00020aff;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.8rem;
+    color:var(--color);
+    line-height: 2;
+    background-color: var(--background);
+}
+
+h1 {
+  font-size:2.5rem;
+  margin-bottom:3rem;
+}
+p {
+  font-size:1rem;
+}
+/** content*/
+.content {
+  background-color: var(--content);
+  width:100%;
+  max-width:60rem;
+  padding: 3rem;
+  border-radius:8px;
+  box-shadow: 1px 1px 9px 0px #00000021;
+  margin: 50px auto; 
+}
+.field {
+  display:flex;
+  margin-bottom:3rem;
+}
+.field label {
+  flex-basis:10rem;
+}
+.field input,
+.field textarea,
+.field select {
+  flex:1;
+  font-size:1.6rem;
+  border: 1px solid var(--borde);
+  border-radius:5px;
+  padding:1rem;
+  background-color:var(--backinput);
+  color:var(--color);
+  border: none;
+}
+.field select {
+  margin-right:2rem;
+  flex:0;
+}
+.field .number {
+  width:100%;
+}
+.field-input {
+  width:100%;
+  display:block;
+  text-align:center;
+}
+/** botton*/
+.btn {
+  background: none;
+  border:2px solid var(--btn);
+  color:var(--color);
+  font-family: 'Roboto', sans-serif;;
+  padding:1.5rem;
+  width:100%;
+  max-width: 30rem;
+  font-weight:600;
+  font-size:1.5rem;
+  border-radius:8px;
+  text-transform: uppercase;
+  transition:0.5s all ease;
+}
+@media (hover:hover) {
+  .btn:hover,
+  .btn:active {
+    cursor:pointer;
+    background-color: var(--btn);
+    box-shadow:
+    2.1px 0px 5.3px 7px rgba(44, 188, 171, 0.054),
+    6.9px 0px 23.5px -3px rgba(44, 188, 171, 0.08),
+    31px 0px 80px 30px rgba(44, 188, 171, 0.14)
+  ;
+  }
+  
+}
+@media (max-width:420px) {
+  .field {
+    display:flex;
+    flex-direction:column;
+  }
+  .field label {
+    flex-basis: 0;
+  }
+  .field select {
+    width:6rem;
+  }
+  .field:nth-child(3) {
+    display: grid;
+    grid-template: "country country" 1fr
+                    "select input" 1fr / 1fr 2fr;
+  }
+  .field:nth-child(3) label {
+    grid-area: country;
+  }
+  .field:nth-child(3) select {
+    grid-area: select;
+  }
+  .field:nth-child(3) input {
+    grid-area: input;
+  }
+}
