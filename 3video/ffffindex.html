@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title> YouTube Playlist</title>
+  <!-- Copy and paste your favorite YouTube created playlists . ENJOY! continous music without interuptions from annoying video ads..  -->
+  <!-- upload code to your free webspace googlesites, google blogger, wix.com (free sites check usage)-->
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+
+
+
+<h4></center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- partial:index.partial.html -->
+<!--Responsive  JS YouTube playlist  loader and  player, (no API keys required) comes without any interruptions from annoying adds between videos!  (don't tell YT)  ideal for music,  parties and dancing , listen enjoy!  Want a  FREE unlimited player?  upload code to Blogger/BlogSpot page 
+Now you can Copy Paste your own or any  full  YouTube playlist ID  playlist  https://*****list=PLo16_*********************" 
+I have also added control buttons as YT controls are  not visible on most mobile devices and a very simple YouTube shuffle command  to create a new random list  sequence , with extra code to play first video in the newly created list sequence . " index(0)"  . 
+Smash the love button.  Leave a comment
+YT player help docs = https://developers.google.com/youtube/iframe_api_reference-->
+<body>
+  <div class="container">
+    <!-- enable border in style to help see things -->
+
+    <center>
+      <div>
+
+        
+  
+
+    
+        <p><em> <span style=color:yellow;background-color:grey;>Halil Konakci  (altaki linki kopyala yapistir)</span>
+         <center><h4>https://www.youtube.com/watch?v=2QmMQO8uNpA&list=PLTzZ7NP2F7K0ZBLEhgi1IHUOz3Rz9-VQu<h4></center>
+        <p><em> <span style=color:yellow;background-color:grey;>Mehmet Emin AY Hoca  (altaki linki kopyala yapistir)</span>
+        <center><h4>https://www.youtube.com/watch?v=51Ib3uDxmWs&list=PLGWuqIb8o_I0mk2PtqnEJHNFbhb8SYGJX&index=3<h4></center>
+      <p><em> <span style=color:yellow;background-color:grey;>Mehmet Emin AY Hoca  (altaki linki kopyala yapistir)</span>
+        <center><h4>https://www.youtube.com/watch?v=51Ib3uDxmWs&list=PLGWuqIb8o_I0mk2PtqnEJHNFbhb8SYGJX&index=3<h4></center>
+ <p><em> <span style=color:yellow;background-color:grey;>Mehmet Emin AY Hoca  (altaki linki kopyala yapistir)</span>
+        <center><h4>https://www.youtube.com/watch?v=51Ib3uDxmWs&list=PLGWuqIb8o_I0mk2PtqnEJHNFbhb8SYGJX&index=3<h4></center>
+ <p><em> <span style=color:yellow;background-color:grey;>Herkes İçin Siyer  (altaki linki kopyala yapistir)</span>
+        <center><h4>https://www.youtube.com/watch?v=E8RJN-oxa_E&list=PLYblxiEFBY-4nZ_iBF-8TC-gph1ithPSI&index=1<h4></center>
+
+ <p><em> <span style=color:yellow;background-color:grey;>Timur Tas Hoca 1  (altaki linki kopyala yapistir)</span>
+        <center><h4>https://www.youtube.com/watch?v=QJEyUi9X4Go&list=PL8rOPK2ZFoF6QrJ9Ubu4x-AEnJLMqbtBJ<h4></center>
+
+
+ <p><em> <span style=color:yellow;background-color:grey;>Timur Tas Hoca 2  (altaki linki kopyala yapistir)</span>
+        <center><h4>https://www.youtube.com/watch?v=EbhwQ8vtvs0&list=PL0hqu63-I_7Qm1LT1jbz9JLDrwFFeFDK8<h4></center>
+
+
+
+ <p><em> <span style=color:yellow;background-color:grey;>Yasin Gündogdu  (altaki linki kopyala yapistir)</span>
+        <center><h4>https://www.youtube.com/watch?v=CtIjI7t7lRA&list=PLeGsnA8qRReA4blF3xbGowJmP0-rbPZKv<h4></center>
+
+
+
+
+       
+      </div>
+      <div>
+        <input id="UserUrl" type="text" placeholder="Usteki Youtube Linkleri Kopyalayip Bura Yapistirin">
+        <button class="but2" id="btn1" onclick="userList()">Ara</button>
+      </div>
+      <br>
+      <div id="mess-box" style="word-wrap:break-word; color:orange;">
+
+      </div>
+
+    </center>
+    <br>
+
+
+    <div>
+      <!-- mobile player controls you could add eventlistener in JS but decided to keep simple simple  -->
+      <button onclick="shuff_list()">Karisik</button>
+      <button onclick="player.previousVideo()">Geri</button>
+      <button onclick="player.playVideo()">Play</button>
+      <button onclick="player.pauseVideo()">Duraklat ||</button>
+      <button onclick="player.nextVideo()">Sonraki </button>
+    </div>
+    <!-- the following two divs styles makes YTplayers responsive either div or iframe you can define style in css file
+		<div id="YTP" style="width: 100%; height: 0; position: relative; padding-bottom: 56.25%; ">
+		<div style="border: solid 1px red; margin-top:5px; width: 100%; height: 100%; position: absolute;" id="player">   -->
+
+    <div class="YTwrapper" id="YTP-wrap">
+      <!-- Wrapper for player iframe or div -->
+      <div class="YTplayer" id="player">
+        <!-- This div contains the youtube player iframe id= player -->
+
+      </div>
+    </div>
+   
+  </div>
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
