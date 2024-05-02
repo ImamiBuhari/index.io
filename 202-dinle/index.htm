@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="kürtçe, kürtçe remix, kürtçe şarkılar, kürtçe müzik, kürtçe ağıt, kürtçe halay, türkülerimiz, türküler yanmaz, türküler 2020, türküler alevi, türküler deyişler, en güzel türküler, deyişler, deyişlerimiz, deyişler türküler, deyişler alevi, dedeler deyisler">
+    <meta name="keywords" content="Türkü,Deyis,Kürtce,Zazaca,Halaylarla,Yöresel Ezgilerle Var Olmaya Bu Yolda RadyoYol,ile Yürümeye Siz Tüm Canlari Devet Ediyoruz">
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="all">
+    <meta name="revisit-after" content="1 Days">
+    <meta name="distribution" content="global">
+    <meta name="rating" content="general">
+
+
+    <!-- Bootstrap -->
+    <link href="../template/css/fontawesome-all.min.css" rel="stylesheet">
+    <link href="../template/jPlayer/jplayer.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <div id="player-area">
+            <div class="row">
+                <div id="current-img">
+  
+                </div>
+            </div>
+            <div id="current-program">
+
+                <div id="player">
+                    <div id="play"><i class="fa fa-play-circle"></i> </div>
+                    <div id="pause"><i class="fa fa-pause-circle"></i>
+                        <div class="outer-circle"></div>
+                    </div>
+                    <div id="mute"><i class="fa fa-volume-up"></i> </div>
+                    <div id="unmute"><i class="fa fa-volume-off"></i> </div>
+                    <div class="jp-volume-bar">
+                        <div class="jp-volume-bar-value"></div>
+                    </div>
+
+                    <div id="main-player" class="jp-jplayer"></div>
+                </div>
+
+
+            </div>
+
+  
+
+    <script type="text/javascript" src="../template/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../template/jPlayer/jplayer/jquery.jplayer.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <script>
+
+        $.post('../song.php',{ server: 'radyo.yayin.com.tr', port: '5934' } ,function(data){ $('#song').html(data); });
+        intervalart = setInterval(function() {
+            $.post('../song.php',{ server: 'radyo.yayin.com.tr', port: '5934' } ,function(data){ $('#song').html(data); });
+}, 20000); // 20 saniyede 
+
+</script>
+
+<script type="text/javascript">
+    var stream = {
+        title: "Canlı Dinle",
+        mp3: "http://radyo.yayin.com.tr:5932/stream"
+    },
+
+    ready = false;
+
+    var mainPlayer = $("#main-player").jPlayer({
+        ready: function(event) {
+            ready = true;
+            $(this).jPlayer("setMedia", stream);
+        },
+        playlistOptions: {
+            enableRemoveControls: true
+        },
+        progress: function() {
+
+        },
+        ready: function(event) {
+            ready = true;
+            $(this).jPlayer("setMedia", stream);
+            $(this).jPlayer("setMedia", stream).jPlayer("play");
+        },
+            play: function() { // To avoid both jPlayers playing together.
+                jQuery(this).jPlayer("pauseOthers");
+            },
+            pause: function() {
+                $(this).jPlayer("clearMedia");
+                $(this).jPlayer("setMedia", stream);
+            },
+            error: function(event) {
+                if (ready && event.jPlayer.error.type === $.jPlayer.error.URL_NOT_SET) {
+                    // Setup the media stream again and play it.
+                    $(this).jPlayer("setMedia", stream).jPlayer("play");
+                }
+
+            },
+            swfPath: "/template/jPlayer/jplayer",
+            supplied: "mp3",
+            preload: "none",
+            cssSelectorAncestor: "",
+            noVolume: false,
+            cssSelector: {
+                title: "#title",
+                play: "#play",
+                pause: "#pause",
+                stop: "#stop",
+                mute: "#mute",
+                unmute: "#unmute",
+                currentTime: "#currentTime",
+                duration: "#duration"
+            },
+            size: {
+                width: "0px",
+                height: "0px"
+            }
+        });
+    </script>
+
+</body>
+
+</html>
